@@ -49,25 +49,25 @@ exec $qPathToStartScript \
 elif [ $1 -eq 1 ]
 # starting VQL CA 1
 then
-echo "Starting clan arena server 2..."
+echo "Starting PQL CTF server 1..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum lets start cooking Clan Arena" \
+    +set sv_hostname "#$servernum lets start cooking PQL Capture the Flag" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "VQL, CA, $sponsortag" \
+    +set sv_tags "PQL, $sponsortag" \
     +set g_voteFlags "13320" \
     +set g_allowSpecVote 1 \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "mappool_vqlca.txt" \
+    +set sv_mappoolFile "mappool_pqlctf.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 2 ]
 # starting PQL Race 1...
@@ -83,7 +83,7 @@ exec $qPathToStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "PQL, defrag, grappling hook, crouch slide, $sponsortag" \
+    +set sv_tags "PQL, defrag, grappling hook, $sponsortag" \
     +set g_voteFlags "13320" \
 	+set g_allowSpecVote 1 \
 	+set g_allowVoteMidGame 1 \
