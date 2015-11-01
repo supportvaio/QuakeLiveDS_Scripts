@@ -39,13 +39,13 @@ exec $qPathToStartScript \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL, CA, $sponsortag" \
     +set g_voteFlags "13320" \
-	+set g_allowSpecVote 1 \
-	+set g_allowVoteMidGame 1 \
-	+set bot_enable 1 \
-	+set bot_nochat 1 \
+    +set g_allowSpecVote 1 \
+    +set g_allowVoteMidGame 1 \
+    +set bot_enable 1 \
+    +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlca.txt" \
-	+set fs_homepath ~/.quakelive/$gameport
+    +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 1 ]
 # starting VQL CA 1
 then
@@ -85,13 +85,13 @@ exec $qPathToStartScript \
     +set zmq_stats_port $gameport \
     +set sv_tags "PQL, defrag, grappling hook, $sponsortag" \
     +set g_voteFlags "13320" \
-	+set g_allowSpecVote 1 \
-	+set g_allowVoteMidGame 1 \
+    +set g_allowSpecVote 1 \
+    +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
-   	+set bot_nochat 1 \
+    +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlrace.txt" \
-	+set fs_homepath ~/.quakelive/$gameport
+    +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 3 ]
 # starting PQL FFA 1...
 then
@@ -108,13 +108,13 @@ exec $qPathToStartScript \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL, $sponsortag" \
     +set g_voteFlags "13320" \
-	+set g_allowSpecVote 1 \
-	+set g_allowVoteMidGame 1 \
+    +set g_allowSpecVote 1 \
+    +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
-   	+set bot_nochat 1 \
+       +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlffa.txt" \
-	+set fs_homepath ~/.quakelive/$gameport
+    +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 4 ]
 # starting PQL CTF 1...
 then
@@ -131,15 +131,15 @@ exec $qPathToStartScript \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL, loadouts, $sponsortag" \
     +set g_voteFlags "13320" \
-	+set g_allowSpecVote 1 \
-	+set g_allowVoteMidGame 1 \
+    +set g_allowSpecVote 1 \
+    +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
-   	+set bot_nochat 1 \
+    +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlffa.txt" \
     +set serverstartup "loadouts on" \
     +set serverstartup "startRandomMap" \
-	+set fs_homepath ~/.quakelive/$gameport
+    +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 5 ]
 # starting PQL DOM 1...
 then
@@ -156,13 +156,13 @@ exec $qPathToStartScript \
     +set zmq_stats_port $gameport \
     +set sv_tags "PQL, CA, $sponsortag" \
     +set g_voteFlags "13320" \
-	+set g_allowSpecVote 1 \
-	+set g_allowVoteMidGame 1 \
+    +set g_allowSpecVote 1 \
+    +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
-   	+set bot_nochat 1 \
+    +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlca.txt" \
-	+set fs_homepath ~/.quakelive/$gameport
+    +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 6 ]
 # starting PQL INFECTED 1...
 then
@@ -179,13 +179,13 @@ exec $qPathToStartScript \
     +set zmq_stats_port $gameport \
     +set sv_tags "PQL, $sponsortag" \
     +set g_voteFlags "13320" \
-	+set g_allowSpecVote 1 \
-	+set g_allowVoteMidGame 1 \
+    +set g_allowSpecVote 1 \
+    +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
-   	+set bot_nochat 1 \
+    +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlffa.txt" \
-	+set fs_homepath ~/.quakelive/$gameport
+    +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 7 ]
 # starting PQL TDM 1...
 then
@@ -202,13 +202,13 @@ exec $qPathToStartScript \
     +set zmq_stats_port $gameport \
     +set sv_tags "PQL, Attack&Defend, $sponsortag" \
     +set g_voteFlags "13320" \
-	+set g_allowSpecVote 1 \
-	+set g_allowVoteMidGame 1 \
+    +set g_allowSpecVote 1 \
+    +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
-   	+set bot_nochat 1 \
+    +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlad.txt" \
-	+set fs_homepath ~/.quakelive/$gameport
+    +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 8 ]
 # starting PQL MultiGame 1...
 then
