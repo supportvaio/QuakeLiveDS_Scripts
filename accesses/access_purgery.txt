@@ -3,3 +3,8 @@
 
 # admin 1, darksab0r
 76561198032849113|admin
+
+# pvl
+76561198054844275|admin
+# clr
+76561198167200287|admin
