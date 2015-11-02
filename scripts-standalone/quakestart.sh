@@ -6,7 +6,7 @@
 
 # Defining variables.
 export location="EKB, RU"
-export qPathToStartScript="~/steamcmd/steamapps/common/qlds/run_server_x32.sh"
+export qPathToStartScript="~/steamcmd/steamapps/common/qlds/run_server_x64.sh"
 sponsortag="$location"
 
 gameport=`expr $1 + 27960`
