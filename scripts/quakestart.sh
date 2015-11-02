@@ -30,7 +30,7 @@ echo "Starting clan arena server 1..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum let's start cooking Clan Arena" \
+    +set sv_hostname "    #$servernum let's start cooking Clan Arena" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -54,7 +54,7 @@ echo "Starting PQL CTF server 1..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum let's start cooking PQL - Capture the Flag" \
+    +set sv_hostname "    #$servernum let's start cooking PQL - Capture the Flag" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -78,7 +78,7 @@ echo "Starting race server 1..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum let's start cooking PQL - Race" \
+    +set sv_hostname "    #$servernum let's start cooking PQL - Race" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -102,7 +102,7 @@ echo "Starting Free for all server 1..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum let's start cooking Free For All" \
+    +set sv_hostname "    #$servernum let's start cooking Free For All" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -126,7 +126,7 @@ echo "Starting Free for all server 2..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum let's start cooking Free for All | loadouts" \
+    +set sv_hostname "    #$servernum let's start cooking Free for All | loadouts" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -152,7 +152,7 @@ echo "Starting PQL clan arena server 1..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum let's start cooking PQL - Clan Arena" \
+    +set sv_hostname "    #$servernum let's start cooking PQL - Clan Arena" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -176,7 +176,7 @@ echo "Starting PQL FFA server 1..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum let's start cooking PQL - Free For All" \
+    +set sv_hostname "    #$servernum let's start cooking PQL - Free For All" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -200,7 +200,7 @@ echo "Starting PQL A&D server 1..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum let's start cooking PQL - Attack & Defend" \
+    +set sv_hostname "    #$servernum let's start cooking PQL - Attack & Defend" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -224,7 +224,7 @@ echo "Starting multi game type server 1..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum let's start cooking $qServerLocation PQL - Multi-Gametype Turbo" \
+    +set sv_hostname "    #$servernum let's start cooking $qServerLocation PQL - Multi-Gametype Turbo" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -247,7 +247,7 @@ echo "Starting VQL duel server 1..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum let's start cooking Duel" \
+    +set sv_hostname "    #$servernum let's start cooking Duel" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -271,7 +271,7 @@ echo "Starting VQL duel server 2..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum let's start cooking Duel" \
+    +set sv_hostname "    #$servernum let's start cooking Duel" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
