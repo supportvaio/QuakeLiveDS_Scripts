@@ -49,7 +49,6 @@ exec $qPathToStartScript \
     +set bot_enable 1 \
     +set bot_nochat 1 \
     +set qlx_owner "76561198032849113" \
-    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlca.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -74,7 +73,6 @@ exec $qPathToStartScript \
     +set bot_enable 1 \
     +set bot_nochat 1 \
     +set qlx_owner "76561198032849113" \
-    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlctf.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -99,7 +97,6 @@ exec $qPathToStartScript \
     +set bot_enable 1 \
     +set bot_nochat 1 \
     +set qlx_owner "76561198032849113" \
-    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlrace.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -122,9 +119,8 @@ exec $qPathToStartScript \
     +set g_allowSpecVote 1 \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
-       +set bot_nochat 1 \
+    +set bot_nochat 1 \
     +set qlx_owner "76561198032849113" \
-    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlffa.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -149,7 +145,6 @@ exec $qPathToStartScript \
     +set bot_enable 1 \
     +set bot_nochat 1 \
     +set qlx_owner "76561198032849113" \
-    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlffa.txt" \
     +set serverstartup "loadouts on" \
@@ -176,7 +171,6 @@ exec $qPathToStartScript \
     +set bot_enable 1 \
     +set bot_nochat 1 \
     +set qlx_owner "76561198032849113" \
-    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlca.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -201,7 +195,6 @@ exec $qPathToStartScript \
     +set bot_enable 1 \
     +set bot_nochat 1 \
     +set qlx_owner "76561198032849113" \
-    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlffa.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -226,7 +219,6 @@ exec $qPathToStartScript \
     +set bot_enable 1 \
     +set bot_nochat 1 \
     +set qlx_owner "76561198032849113" \
-    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlad.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -250,7 +242,6 @@ exec $qPathToStartScript \
     +set bot_enable 1 \
     +set bot_nochat 1 \
     +set qlx_owner "76561198032849113" \
-    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlmulti.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -275,7 +266,6 @@ exec $qPathToStartScript \
     +set bot_enable 1 \
     +set bot_nochat 1 \
     +set qlx_owner "76561198032849113" \
-    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduel.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -299,7 +289,6 @@ exec $qPathToStartScript \
     +set bot_enable 1 \
     +set bot_nochat 1 \
     +set qlx_owner "76561198032849113" \
-    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduel.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -325,7 +314,6 @@ exec $qPathToStartScript \
     +set bot_enable 1 \
     +set bot_nochat 1 \
     +set qlx_owner "76561198032849113" \
-    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_mickzerofive.txt" \
     +set sv_mappoolFile "mappool_default.txt" \
     +set fs_homepath ~/.quakelive/$gameport
