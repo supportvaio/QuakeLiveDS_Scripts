@@ -139,10 +139,10 @@ exec $qPathToStartScript \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
+    +set g_loadout 1 \
     +set qlx_owner "76561198032849113" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlffa.txt" \
-    +set serverstartup "loadouts on" \
     +set serverstartup "startRandomMap" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 5 ]
