@@ -6,10 +6,10 @@
 
 # Defining variables.
 export qServerLocation=$(<localConfig-serverLocation.txt)
-export qPathToStartScript="~/steamcmd/steamapps/common/qlds/run_server_x86.sh"
+export qPathToStartScript="~/steamcmd/steamapps/common/qlds/run_server_x64_minqlx.sh"
 export qRconPasswordPurgery=$(<localConfig-rconPassword-purgery.txt)
 export qRconPassword4sg=$(<localConfig-rconPassword-mickzerofive.txt)
-sponsortag="RU, EKB"
+sponsortag="minqlx, RU, EKB"
 
 gameport=`expr $1 + 27960`
 rconport=`expr $1 + 28960`
@@ -30,7 +30,7 @@ echo "Starting clan arena server 1..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum lets start cooking Clan Arena" \
+    +set sv_hostname "#$servernum let's start cooking Clan Arena" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -43,6 +43,8 @@ exec $qPathToStartScript \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
+    +set qlx_owner "76561198032849113" \
+    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlca.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -53,7 +55,7 @@ echo "Starting PQL CTF server 1..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum lets start cooking PQL - Capture the Flag" \
+    +set sv_hostname "#$servernum let's start cooking PQL - Capture the Flag" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -66,6 +68,8 @@ exec $qPathToStartScript \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
+    +set qlx_owner "76561198032849113" \
+    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlctf.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -76,7 +80,7 @@ echo "Starting race server 1..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum lets start cooking PQL - Race" \
+    +set sv_hostname "#$servernum let's start cooking PQL - Race" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -89,6 +93,8 @@ exec $qPathToStartScript \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
+    +set qlx_owner "76561198032849113" \
+    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlrace.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -99,7 +105,7 @@ echo "Starting Free for all server 1..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum lets start cooking Free For All" \
+    +set sv_hostname "#$servernum let's start cooking Free For All" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -112,6 +118,8 @@ exec $qPathToStartScript \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
        +set bot_nochat 1 \
+    +set qlx_owner "76561198032849113" \
+    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlffa.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -122,7 +130,7 @@ echo "Starting Free for all server 2..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum lets start cooking Free for All | loadouts" \
+    +set sv_hostname "#$servernum let's start cooking Free for All | loadouts" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -135,6 +143,8 @@ exec $qPathToStartScript \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
+    +set qlx_owner "76561198032849113" \
+    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlffa.txt" \
     +set serverstartup "loadouts on" \
@@ -147,7 +157,7 @@ echo "Starting PQL clan arena server 1..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum lets start cooking PQL - Clan Arena" \
+    +set sv_hostname "#$servernum let's start cooking PQL - Clan Arena" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -160,6 +170,8 @@ exec $qPathToStartScript \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
+    +set qlx_owner "76561198032849113" \
+    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlca.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -170,7 +182,7 @@ echo "Starting PQL FFA server 1..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum lets start cooking PQL - Free For All" \
+    +set sv_hostname "#$servernum let's start cooking PQL - Free For All" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -183,6 +195,8 @@ exec $qPathToStartScript \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
+    +set qlx_owner "76561198032849113" \
+    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlffa.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -193,7 +207,7 @@ echo "Starting PQL A&D server 1..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum lets start cooking PQL - Attack & Defend" \
+    +set sv_hostname "#$servernum let's start cooking PQL - Attack & Defend" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -206,6 +220,8 @@ exec $qPathToStartScript \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
+    +set qlx_owner "76561198032849113" \
+    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlad.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -216,7 +232,7 @@ echo "Starting multi game type server 1..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum lets start cooking $qServerLocation PQL - Multi-Gametype Turbo" \
+    +set sv_hostname "#$servernum let's start cooking $qServerLocation PQL - Multi-Gametype Turbo" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -228,6 +244,8 @@ exec $qPathToStartScript \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
+    +set qlx_owner "76561198032849113" \
+    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlmulti.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -238,7 +256,7 @@ echo "Starting VQL duel server 1..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum lets start cooking Duel" \
+    +set sv_hostname "#$servernum let's start cooking Duel" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -251,6 +269,8 @@ exec $qPathToStartScript \
     +set g_allowVoteMidGame 0 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
+    +set qlx_owner "76561198032849113" \
+    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduel.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -261,7 +281,7 @@ echo "Starting VQL duel server 2..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum lets start cooking Duel" \
+    +set sv_hostname "#$servernum let's start cooking Duel" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -273,6 +293,8 @@ exec $qPathToStartScript \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
+    +set qlx_owner "76561198032849113" \
+    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduel.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -297,6 +319,8 @@ exec $qPathToStartScript \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
+    +set qlx_owner "76561198032849113" \
+    +set qlx_redisUnixSocket "1" \
     +set g_accessFile "access_mickzerofive.txt" \
     +set sv_mappoolFile "mappool_default.txt" \
     +set fs_homepath ~/.quakelive/$gameport
