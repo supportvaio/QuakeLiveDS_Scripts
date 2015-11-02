@@ -50,6 +50,7 @@ echo "Downloading and replacing all entities..."
 rm -rf entities/; curl -s $qBaseURL/entities/entities.zip > entities.zip; unzip -o entities.zip; rm entities.zip; rm -rf __MACOSX; mkdir entities; mv *.ent entities/; dos2unix --quiet entities/*
 echo "Downloading and replacing '/etc/supervisord.conf'..."
 sudo rm /etc/supervisord.conf; curl -s $qBaseURL/config-files/supervisord.txt > supervisord.conf; sudo mv supervisord.conf /etc/supervisord.conf; sudo dos2unix --quiet /etc/supervisord.conf; sudo chmod 755 /etc/supervisord.conf
+sudo rm /etc/supervisor/supervisord.conf; curl -s $qBaseURL/config-files/supervisord.txt > supervisord.conf; sudo mv supervisord.conf /etc/supervisor/supervisord.conf; sudo dos2unix --quiet /etc/supervisor/supervisord.conf; sudo chmod 755 /etc/supervisor/supervisord.conf
 echo Done.
 # Updating this script. THIS IS NOW TAKEN CARE OF IN THE UPDATE SCRIPT
 #  cd ~
