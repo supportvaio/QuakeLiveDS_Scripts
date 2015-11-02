@@ -1,7 +1,7 @@
 ; quake live supervisord configuration file
 
 [unix_http_server]
-file=/var/tmp/supervisor.sock   ; (the path to the socket file)
+file=/tmp/supervisor.sock   ; (the path to the socket file)
 chmod=0770
 chown=nobody:supervisor
 
