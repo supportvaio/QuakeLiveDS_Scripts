@@ -170,44 +170,44 @@ echo "Starting PQL FFA server 1..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking PQL - Free For All" \
+    +set sv_hostname "    #$servernum let's start cooking PQL - GravSpace FFA" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "PQL, $sponsortag" \
+    +set sv_tags "PQL, space, $sponsortag" \
     +set g_voteFlags "13320" \
     +set g_allowSpecVote 1 \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "mappool_pqlffa.txt" \
+    +set sv_mappoolFile "mappool_pqlgravspaceffa.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 7 ]
 # starting PQL TDM 1...
 then
-echo "Starting PQL A&D server 1..."
+echo "Starting VQL TDM server 1..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking PQL - Attack & Defend" \
+    +set sv_hostname "    #$servernum let's start cooking Team Deathmatch" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "PQL, Attack&Defend, $sponsortag" \
+    +set sv_tags "VQL, $sponsortag" \
     +set g_voteFlags "13320" \
     +set g_allowSpecVote 1 \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "mappool_pqlad.txt" \
+    +set sv_mappoolFile "mappool_vqltdm.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 8 ]
 # starting PQL MultiGame 1...
