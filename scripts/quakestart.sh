@@ -166,25 +166,25 @@ exec $qPathToStartScript \
 elif [ $1 -eq 6 ]
 # starting PQL INFECTED 1...
 then
-echo "Starting PQL FFA server 1..."
+echo "Starting VQL duel server 3..."
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking PQL - GravSpace FFA" \
+    +set sv_hostname "    #$servernum let's start cooking Duel" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "PQL, space, $sponsortag" \
+    +set sv_tags "VQL, $sponsortag" \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "mappool_pqlgravspaceffa.txt" \
+    +set sv_mappoolFile "mappool_vqlduel.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 7 ]
 # starting PQL TDM 1...
