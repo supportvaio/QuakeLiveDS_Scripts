@@ -39,7 +39,7 @@ exec $qPathToStartScript \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL, CA, $sponsortag" \
     +set g_voteFlags "9320" \
-    +set g_allowSpecVote 1 \
+    +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
@@ -62,7 +62,7 @@ exec $qPathToStartScript \
     +set zmq_stats_port $gameport \
     +set sv_tags "PQL, $sponsortag" \
     +set g_voteFlags "9320" \
-    +set g_allowSpecVote 1 \
+    +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
@@ -85,7 +85,7 @@ exec $qPathToStartScript \
     +set zmq_stats_port $gameport \
     +set sv_tags "PQL, defrag, grappling hook, $sponsortag" \
     +set g_voteFlags "9320" \
-    +set g_allowSpecVote 1 \
+    +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
@@ -108,7 +108,7 @@ exec $qPathToStartScript \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL, $sponsortag" \
     +set g_voteFlags "9320" \
-    +set g_allowSpecVote 1 \
+    +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
@@ -131,7 +131,7 @@ exec $qPathToStartScript \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL, loadouts, $sponsortag" \
     +set g_voteFlags "9320" \
-    +set g_allowSpecVote 1 \
+    +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
@@ -156,7 +156,7 @@ exec $qPathToStartScript \
     +set zmq_stats_port $gameport \
     +set sv_tags "PQL, CA, $sponsortag" \
     +set g_voteFlags "9320" \
-    +set g_allowSpecVote 1 \
+    +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
@@ -179,7 +179,7 @@ exec $qPathToStartScript \
     +set zmq_stats_port $gameport \
     +set sv_tags "PQL, space, $sponsortag" \
     +set g_voteFlags "9320" \
-    +set g_allowSpecVote 1 \
+    +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
@@ -202,7 +202,7 @@ exec $qPathToStartScript \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL, $sponsortag" \
     +set g_voteFlags "9320" \
-    +set g_allowSpecVote 1 \
+    +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
@@ -224,7 +224,7 @@ exec $qPathToStartScript \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
     +set sv_tags "PQL, multi-mode, $sponsortag" \
-    +set g_allowSpecVote 1 \
+    +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
@@ -269,8 +269,8 @@ exec $qPathToStartScript \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL, $sponsortag" \
-    +set g_allowSpecVote 1 \
-    +set g_allowVoteMidGame 1 \
+    +set g_allowSpecVote 0 \
+    +set g_allowVoteMidGame 0 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
@@ -293,7 +293,7 @@ exec $qPathToStartScript \
     +set zmq_stats_password "$qRconPassword4sg" \
     +set zmq_stats_port $gameport \
     +set sv_tags "4Seasons Gaming,$qServerLocation" \
-    +set g_allowSpecVote 1 \
+    +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
