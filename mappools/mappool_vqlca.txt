@@ -5,7 +5,6 @@ almostlost|ca
 asylum|ca
 blackcathedral|ca
 bloodrun|ca
-bloodrunintel|ca
 campgrounds|ca
 cannedheat|ca
 cliffside|ca

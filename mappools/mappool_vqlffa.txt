@@ -8,7 +8,6 @@ blackcathedral|ffa
 brimstoneabbey|ffa
 chemicalreaction|ffa
 bloodrun|ffa
-bloodrunintel|ffa
 lostworld|ffa
 furiousheights|ffa
 campgrounds|ffa

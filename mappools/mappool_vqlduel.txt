@@ -11,3 +11,5 @@ houseofdecay|duel
 silence|duel
 hektik|duel
 battleforged|duel
+elder|duel
+verticalvengeance|duel

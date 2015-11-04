@@ -8,7 +8,6 @@ arcanecitadel|pqlca
 blackcathedral|pqlca
 brimstoneabbey|pqlca
 bloodrun|pqlca
-bloodrunintel|pqlca
 campgrounds|pqlca
 asylum|pqlca
 coldwar|pqlca
