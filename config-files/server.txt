@@ -37,8 +37,9 @@ set con_tty 0
 set sv_fps "40"
 set sv_idleExit "120"
 
-set qlx_owner "76561198032849113"
-
 set sv_altEntDir "baseq3/entities"
 
 set serverstartup "startRandomMap"
+
+set qlx_owner "76561198032849113"
+set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, branding"
