@@ -6,7 +6,8 @@
 
 # Defining variables.
 export qServerLocation=$(<localConfig-serverLocation.txt)
-export qPathToStartScript="~/steamcmd/steamapps/common/qlds/run_server_x86.sh"
+export qPathToMinqlxStartScript="~/steamcmd/steamapps/common/qlds/run_server_x64_minqlx.sh"
+export qPathToVanillaStartScript="~/steamcmd/steamapps/common/qlds/run_server_x64.sh"
 export qRconPasswordPurgery=$(<localConfig-rconPassword-purgery.txt)
 export qRconPassword4sg=$(<localConfig-rconPassword-mickzerofive.txt)
 sponsortag="RU, EKB"
@@ -27,7 +28,7 @@ if [ $1 -eq 0 ]
 # starting PQL CA 1
 then
 echo "Starting clan arena server 1..."
-exec $qPathToStartScript \
+exec $qPathToVanillaStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
     +set sv_hostname "    #$servernum let's start cooking Clan Arena" \
@@ -48,7 +49,7 @@ elif [ $1 -eq 1 ]
 # starting VQL CA 1
 then
 echo "Starting PQL CTF server 1..."
-exec $qPathToStartScript \
+exec $qPathToVanillaStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
     +set sv_hostname "    #$servernum let's start cooking PQL - Capture the Flag" \
@@ -69,7 +70,7 @@ elif [ $1 -eq 2 ]
 # starting PQL Race 1...
 then
 echo "Starting race server 1..."
-exec $qPathToStartScript \
+exec $qPathToVanillaStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
     +set sv_hostname "    #$servernum let's start cooking PQL - Race" \
@@ -90,7 +91,7 @@ elif [ $1 -eq 3 ]
 # starting PQL FFA 1...
 then
 echo "Starting Free for all server 1..."
-exec $qPathToStartScript \
+exec $qPathToVanillaStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
     +set sv_hostname "    #$servernum let's start cooking Free For All" \
@@ -111,7 +112,7 @@ elif [ $1 -eq 4 ]
 # starting PQL CTF 1...
 then
 echo "Starting Free for all server 2..."
-exec $qPathToStartScript \
+exec $qPathToVanillaStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
     +set sv_hostname "    #$servernum let's start cooking Free for All | loadouts" \
@@ -134,7 +135,7 @@ elif [ $1 -eq 5 ]
 # starting PQL DOM 1...
 then
 echo "Starting PQL clan arena server 1..."
-exec $qPathToStartScript \
+exec $qPathToVanillaStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
     +set sv_hostname "    #$servernum let's start cooking PQL - Clan Arena" \
@@ -155,7 +156,7 @@ elif [ $1 -eq 6 ]
 # starting PQL INFECTED 1...
 then
 echo "Starting VQL duel server 3..."
-exec $qPathToStartScript \
+exec $qPathToVanillaStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
     +set sv_hostname "    #$servernum let's start cooking Duel" \
@@ -176,7 +177,7 @@ elif [ $1 -eq 7 ]
 # starting PQL TDM 1...
 then
 echo "Starting VQL TDM server 1..."
-exec $qPathToStartScript \
+exec $qPathToVanillaStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
     +set sv_hostname "    #$servernum let's start cooking Team Deathmatch" \
@@ -197,7 +198,7 @@ elif [ $1 -eq 8 ]
 # starting PQL MultiGame 1...
 then
 echo "Starting multi game type server 1..."
-exec $qPathToStartScript \
+exec $qPathToVanillaStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
     +set sv_hostname "    #$servernum let's start cooking $qServerLocation PQL - Multi-Gametype Turbo" \
@@ -217,7 +218,7 @@ elif [ $1 -eq 9 ]
 # starting vql duel 1...
 then
 echo "Starting VQL duel server 1..."
-exec $qPathToStartScript \
+exec $qPathToVanillaStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
     +set sv_hostname "    #$servernum let's start cooking Duel" \
@@ -238,7 +239,7 @@ elif [ $1 -eq 10 ]
 # starting VQL iCTF 1...
 then
 echo "Starting VQL duel server 2..."
-exec $qPathToStartScript \
+exec $qPathToVanillaStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
     +set sv_hostname "    #$servernum let's start cooking Duel" \
@@ -260,15 +261,15 @@ then
 if [ $(hostname) == "brisbane.quakelive.tomtecsolutions.com.au" ]
 then
 echo "Starting mickzerofive's server..."
-exec $qPathToStartScript \
+exec $qPathToVanillaStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
     +set sv_hostname "http://4SeasonsGaming.com $qServerLocation" \
     +set zmq_rcon_enable 1 \
-    +set zmq_rcon_password "$qRconPassword4sg" \
+    +set zmq_rcon_password "$(<localConfig-rconPassword-mickzerofive.txt)" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
-    +set zmq_stats_password "$qRconPassword4sg" \
+    +set zmq_stats_password "$(<localConfig-rconPassword-mickzerofive.txt)" \
     +set zmq_stats_port $gameport \
     +set sv_tags "4Seasons Gaming,$qServerLocation" \
     +set g_allowSpecVote 0 \
