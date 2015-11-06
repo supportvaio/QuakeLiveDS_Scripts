@@ -36,7 +36,7 @@ exec $qPathToVanillaStartScript \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
-    +set zmq_stats_password "$qRconPasswordPurgery" \
+    +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL, CA, $sponsortag" \
     +set g_voteFlags "9320" \
@@ -57,7 +57,7 @@ exec $qPathToVanillaStartScript \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
-    +set zmq_stats_password "$qRconPasswordPurgery" \
+    +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
     +set sv_tags "PQL, $sponsortag" \
     +set g_voteFlags "9320" \
@@ -78,7 +78,7 @@ exec $qPathToVanillaStartScript \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
-    +set zmq_stats_password "$qRconPasswordPurgery" \
+    +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
     +set sv_tags "PQL, defrag, grappling hook, $sponsortag" \
     +set g_voteFlags "9320" \
@@ -99,7 +99,7 @@ exec $qPathToVanillaStartScript \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
-    +set zmq_stats_password "$qRconPasswordPurgery" \
+    +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL, $sponsortag" \
     +set g_voteFlags "9320" \
@@ -120,7 +120,7 @@ exec $qPathToVanillaStartScript \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
-    +set zmq_stats_password "$qRconPasswordPurgery" \
+    +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL, loadouts, $sponsortag" \
     +set g_voteFlags "9320" \
@@ -143,7 +143,7 @@ exec $qPathToVanillaStartScript \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
-    +set zmq_stats_password "$qRconPasswordPurgery" \
+    +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
     +set sv_tags "PQL, CA, $sponsortag" \
     +set g_voteFlags "9320" \
@@ -164,7 +164,7 @@ exec $qPathToVanillaStartScript \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
-    +set zmq_stats_password "$qRconPasswordPurgery" \
+    +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL, $sponsortag" \
     +set g_voteFlags "9320" \
@@ -185,7 +185,7 @@ exec $qPathToVanillaStartScript \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
-    +set zmq_stats_password "$qRconPasswordPurgery" \
+    +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL, $sponsortag" \
     +set g_voteFlags "9320" \
@@ -206,7 +206,7 @@ exec $qPathToVanillaStartScript \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
-    +set zmq_stats_password "$qRconPasswordPurgery" \
+    +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
     +set sv_tags "PQL, multi-mode, $sponsortag" \
     +set g_allowSpecVote 0 \
@@ -226,7 +226,7 @@ exec $qPathToVanillaStartScript \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
-    +set zmq_stats_password "$qRconPasswordPurgery" \
+    +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL, $sponsortag" \
     +set g_voteFlags "9320" \
@@ -247,7 +247,7 @@ exec $qPathToVanillaStartScript \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
-    +set zmq_stats_password "$qRconPasswordPurgery" \
+    +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL, $sponsortag" \
     +set g_allowSpecVote 0 \
