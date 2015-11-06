@@ -1,3 +1,0 @@
-# This file is read from every 15 minutes for the MOTD broadcast on all servers.                                     $
-# Limit of 119 characters per line otherwise QLDS will truncate the line.
-Welcome to darksab0r's servers, please talk to him if you have any questions/requests.
