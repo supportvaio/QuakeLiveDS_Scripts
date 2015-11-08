@@ -42,6 +42,6 @@ set sv_altEntDir "baseq3/entities"
 set serverstartup "startRandomMap"
 
 set qlx_owner "76561198032849113"
-set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, branding, rules, names"
+set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, branding, names"
 
 mappool_reload
