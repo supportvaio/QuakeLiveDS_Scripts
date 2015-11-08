@@ -41,8 +41,6 @@ exec $qPathToStartScript \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
-    +set bot_enable 1 \
-    +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlca.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -64,8 +62,6 @@ exec $qPathToStartScript \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
-    +set bot_enable 1 \
-    +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlctf.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -87,8 +83,6 @@ exec $qPathToStartScript \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
-    +set bot_enable 1 \
-    +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlrace.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -110,8 +104,6 @@ exec $qPathToStartScript \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
-    +set bot_enable 1 \
-    +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlffa.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -133,8 +125,6 @@ exec $qPathToStartScript \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
-    +set bot_enable 1 \
-    +set bot_nochat 1 \
     +set g_loadout 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlffa.txt" \
@@ -158,8 +148,6 @@ exec $qPathToStartScript \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
-    +set bot_enable 1 \
-    +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlca.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -181,8 +169,6 @@ exec $qPathToStartScript \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
-    +set bot_enable 1 \
-    +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduel.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -204,8 +190,6 @@ exec $qPathToStartScript \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
-    +set bot_enable 1 \
-    +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqltdm.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -226,8 +210,6 @@ exec $qPathToStartScript \
     +set sv_tags "PQL, multi-mode, $sponsortag" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
-    +set bot_enable 1 \
-    +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlmulti.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -249,8 +231,6 @@ exec $qPathToStartScript \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 0 \
-    +set bot_enable 1 \
-    +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduel.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -271,8 +251,6 @@ exec $qPathToStartScript \
     +set sv_tags "VQL, $sponsortag" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 0 \
-    +set bot_enable 1 \
-    +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduel.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -295,8 +273,6 @@ exec $qPathToStartScript \
     +set sv_tags "4Seasons Gaming,$qServerLocation" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
-    +set bot_enable 1 \
-    +set bot_nochat 1 \
     +set g_accessFile "access_mickzerofive.txt" \
     +set sv_mappoolFile "mappool_default.txt" \
     +set fs_homepath ~/.quakelive/$gameport

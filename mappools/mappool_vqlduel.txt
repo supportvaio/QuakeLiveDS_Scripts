@@ -1,5 +1,4 @@
 # Duel map pool, provided by phy1um.
-
 bloodrun|duel
 aerowalk|duel
 lostworld|duel
