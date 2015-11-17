@@ -45,3 +45,5 @@ set qlx_owner "76561198032849113"
 
 set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names"
 
+set qlx_enforceSteamName "0"
+
