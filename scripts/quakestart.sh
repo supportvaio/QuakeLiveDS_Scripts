@@ -170,6 +170,8 @@ exec $qPathToMinqlxStartScript \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
+    +set g_timeoutCount 3 \
+    +set g_timeoutLen 30 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduel.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -231,7 +233,9 @@ exec $qPathToMinqlxStartScript \
     +set sv_tags "VQL, $sponsortag" \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
-    +set g_allowVoteMidGame 0 \
+    +set g_allowVoteMidGame 1 \
+    +set g_timeoutCount 3 \
+    +set g_timeoutLen 30 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduel.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -251,7 +255,9 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL, $sponsortag" \
     +set g_allowSpecVote 0 \
-    +set g_allowVoteMidGame 0 \
+    +set g_allowVoteMidGame 1 \
+    +set g_timeoutCount 3 \
+    +set g_timeoutLen 30 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduel.txt" \
     +set fs_homepath ~/.quakelive/$gameport
