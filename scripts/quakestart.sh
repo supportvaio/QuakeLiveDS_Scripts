@@ -48,11 +48,11 @@ exec $qPathToMinqlxStartScript \
 elif [ $1 -eq 1 ]
 # starting VQL CA 1
 then
-echo "Starting PQL CTF server 1..."
+echo "Starting PQL AD server 1..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking PQL - Capture the Flag" \
+    +set sv_hostname "    #$servernum let's start cooking PQL - 3Wave's CaptureStrike" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -64,7 +64,7 @@ exec $qPathToMinqlxStartScript \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "mappool_pqlctf.txt" \
+    +set sv_mappoolFile "mappool_pqlad3WaveCaptureStrike.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 2 ]
 # starting PQL Race 1...
@@ -80,7 +80,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "PQL, defrag, grappling hook, $sponsortag" \
+    +set sv_tags "PQL, defrag, grappling hook, crouch slide, $sponsortag" \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
