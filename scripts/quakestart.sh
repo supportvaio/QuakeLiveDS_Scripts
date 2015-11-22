@@ -178,11 +178,11 @@ exec $qPathToMinqlxStartScript \
 elif [ $1 -eq 7 ]
 # starting PQL TDM 1...
 then
-echo "Starting VQL TDM server 1..."
+echo "Starting VQL FT server 1..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking Team Deathmatch" \
+    +set sv_hostname "    #$servernum let's start cooking Ultra Freeze Tag" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -194,7 +194,7 @@ exec $qPathToMinqlxStartScript \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "mappool_vqltdm.txt" \
+    +set sv_mappoolFile "mappool_vqluft.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 8 ]
 # starting PQL MultiGame 1...
@@ -203,7 +203,7 @@ echo "Starting multi game type server 1..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking $qServerLocation PQL - Multi-Gametype Turbo" \
+    +set sv_hostname "    #$servernum let's start cooking Rocket Arena 3" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -214,7 +214,7 @@ exec $qPathToMinqlxStartScript \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "mappool_pqlmulti.txt" \
+    +set sv_mappoolFile "mappool_ca_ra3.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 9 ]
 # starting vql duel 1...
