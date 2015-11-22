@@ -189,7 +189,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "VQL, $sponsortag" \
+    +set sv_tags "VQL, Ultra Freeze Tag, $sponsortag" \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
@@ -199,7 +199,7 @@ exec $qPathToMinqlxStartScript \
 elif [ $1 -eq 8 ]
 # starting PQL MultiGame 1...
 then
-echo "Starting multi game type server 1..."
+echo "Starting RA3 server 1..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
@@ -210,7 +210,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "PQL, multi-mode, $sponsortag" \
+    +set sv_tags "RA3, Rocket Arena 3, $sponsortag" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
