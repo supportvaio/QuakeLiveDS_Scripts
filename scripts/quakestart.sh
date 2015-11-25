@@ -59,7 +59,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "PQL, $sponsortag" \
+    +set sv_tags "PQL, 3Wave, CaptureStrike, $sponsortag" \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
@@ -94,14 +94,14 @@ echo "Starting Free for all server 1..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking Free For All" \
+    +set sv_hostname "    #$servernum let's start cooking FFA | classic" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "VQL, $sponsortag" \
+    +set sv_tags "VQL, classic, $sponsortag" \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
@@ -115,7 +115,7 @@ echo "Starting Free for all server 2..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking Free for All | loadouts" \
+    +set sv_hostname "    #$servernum let's start cooking FFA | loadouts" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
