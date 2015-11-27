@@ -10,7 +10,7 @@ export qPathToMinqlxStartScript="~/steamcmd/steamapps/common/qlds/run_server_x64
 export qPathToVanillaStartScript="~/steamcmd/steamapps/common/qlds/run_server_x64.sh"
 export qRconPasswordPurgery=$(<localConfig-rconPassword-purgery.txt)
 export qRconPassword4sg=$(<localConfig-rconPassword-mickzerofive.txt)
-sponsortag="RU, EKB"
+sponsortag="RU,EKB"
 
 gameport=`expr $1 + 27960`
 rconport=`expr $1 + 28960`
@@ -38,7 +38,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "VQL, CA, $sponsortag" \
+    +set sv_tags "VQL,CA,$sponsortag" \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
@@ -59,7 +59,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "PQL, 3Wave, CaptureStrike, $sponsortag" \
+    +set sv_tags "PQL,3Wave,CaptureStrike,$sponsortag" \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
@@ -80,7 +80,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "PQL, defrag, grappling hook, crouch slide, $sponsortag" \
+    +set sv_tags "PQL,defrag,grappling hook,crouch slide,$sponsortag" \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
@@ -101,7 +101,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "VQL, classic, $sponsortag" \
+    +set sv_tags "VQL,classic,$sponsortag" \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
@@ -122,7 +122,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "VQL, loadouts, $sponsortag" \
+    +set sv_tags "VQL,loadouts,$sponsortag" \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
@@ -145,7 +145,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "PQL, CA, $sponsortag" \
+    +set sv_tags "PQL,CA,$sponsortag" \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
@@ -166,7 +166,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "VQL, $sponsortag" \
+    +set sv_tags "VQL,$sponsortag" \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
@@ -189,7 +189,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "VQL, Ultra Freeze Tag, $sponsortag" \
+    +set sv_tags "VQL,Ultra Freeze Tag,$sponsortag" \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
@@ -210,7 +210,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "RA3, Rocket Arena 3, $sponsortag" \
+    +set sv_tags "RA3,Rocket Arena 3,$sponsortag" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
@@ -230,7 +230,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "VQL, $sponsortag" \
+    +set sv_tags "VQL,$sponsortag" \
     +set g_voteFlags "9320" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
@@ -253,7 +253,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "VQL, $sponsortag" \
+    +set sv_tags "VQL,$sponsortag" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_timeoutCount 3 \
