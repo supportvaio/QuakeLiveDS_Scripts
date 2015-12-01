@@ -8,7 +8,7 @@
 export qServerLocation=$(<localConfig-serverLocation.txt)
 export qPathToMinqlxStartScript="~/steamcmd/steamapps/common/qlds/run_server_x64_minqlx.sh"
 export qPathToVanillaStartScript="~/steamcmd/steamapps/common/qlds/run_server_x64.sh"
-export qRconPasswordPurgery=$(<localConfig-rconPassword-purgery.txt)
+export qRconPasswordPurgery="~/localConfig-rconPassword-purgery.txt"
 export qRconPassword4sg=$(<localConfig-rconPassword-mickzerofive.txt)
 sponsortag="RU,EKB"
 
