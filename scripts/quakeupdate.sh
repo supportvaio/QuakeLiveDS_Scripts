@@ -15,12 +15,12 @@ echo "========= $(date) ========="
 # Informing players in the servers that the servers are going down for a bit.
 counter="$qUpdateLowestRconPort"
 
-while [ $counter -le $qUpdateHighestRconPort ]
-do
-	echo Telling players in server port $counter that the servers are going down...
-	python2 ~/steamcmd/steamapps/common/qlds/rcon.py --host tcp://127.0.0.1:$counter --password "$qRconPassword" --command "say $qUpdateServerMessage"
-	((counter++))
-done
+##while [ $counter -le $qUpdateHighestRconPort ]
+##do
+	##echo Telling players in server port $counter that the servers are going down...
+	##python2 ~/steamcmd/steamapps/common/qlds/rcon.py --host tcp://127.0.0.1:$counter --password "$qRconPassword" --command "say $qUpdateServerMessage"
+	##((counter++))
+##done
 
 # Using 'supervisorctl' to stop all servers.
 echo Stopping Quake Servers...
