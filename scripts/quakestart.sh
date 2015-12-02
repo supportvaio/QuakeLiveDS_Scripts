@@ -85,7 +85,7 @@ exec $qPathToMinqlxStartScript \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "mappool_pqlrace.txt" \
+    +set sv_mappoolFile "mappool_qlrace_turbo.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 3 ]
 # starting PQL FFA 1...
