@@ -9,6 +9,12 @@
 # More Gametypes
 538941289
 
+# Defrag factories
+561608148
+
+# QLRace.com factories
+543328061
+
 # Pad Maps
 557452835
 
@@ -41,7 +47,6 @@
 545368609
 
 # Rocket Arena 3
-
 557591894
 558200805
 553095317
@@ -56,3 +61,115 @@
 551229107
 551699225
 553088484
+# !ra3map12{.,a,b,c}
+563005769
+# !ra3map11{.,a,b,c}
+562987267
+# !ra3map7{.,a,b,c}
+561877295
+# !ra3map4{.,a,b,c}
+561815150
+# !ra3map14{.,a,b,c}
+561683838
+
+# Power maps (kitnamek kitroom kitcapsule dapalace danorthern dacity)
+565451557
+
+# Map - Hogwarts
+565357365
+
+# Defrag maps - cpm_{1..8,10}
+565175871
+
+# Map - marsv1
+565025333
+
+# Maps - polo3dm{2..5}, polo3ctf1
+564946744
+
+# Maps - storm3dm2, storm3tourney{1..6,9}
+564894881
+
+# Defrag map - df_0ups
+564229527
+
+# Defrag map - df_o3jvelocity
+564193729
+
+# Defrag map - df_cityrocket
+564179678
+
+# Map - therage (FFA DUEL CA TDM)
+therage
+
+# Defrag mappack (df_enz12 df_ghostcheerslick df_ghostslickthis df_liquidazot df_pornstarlambaslick df_ghostcheerextended)
+563581691
+
+# Defrag map - df_jjm2
+563581227
+
+# Defrag map - df_coldrun
+563333349
+
+# Defrag map - df_palmslane
+563284812
+
+# Map - ts_dm5tmp, ts_dm5 (UFT, FFA)
+563105825
+
+# Map - runtfest (UFT, FFA)
+563103303
+
+# Map - fff (UFT, FFA)
+563100435
+
+# Defrag map - df_freestyle88
+562747010
+
+# Defrag mappack - lick
+562739597
+
+# Map - 69pickup1 (UFT, FFA)
+562569404
+
+# Map - sleep (UFT, FFA)
+562564197
+
+# Map - chronic (UFT, FFA)
+562554624
+
+# Defrag map - df_tr1ckhouse
+562451786
+
+# Defrag map - cos1_beta7b
+562448681
+
+# Defrag map - df_pornstarslopin
+562448042
+
+# Defrag map - df_momentum
+561856702
+
+# Defrag mappack - RuSHeR
+561646565
+
+# Defrag map - df_bardokstatik
+561610262
+
+# Map - dm6remix (FFA, CA)
+560647562
+
+# Map - nalq1dm6 (FFA)
+560547573
+
+# Map - oxodm102_b1 (FFA, CA)
+560545593
+
+# Defrag map - df_csu1a
+560050165
+
+# Map - oxodm2a (FFA)
+560548198
+
+
+

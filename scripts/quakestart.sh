@@ -39,7 +39,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL,CA,$sponsortag" \
-    +set g_voteFlags "9320" \
+    +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
@@ -60,7 +60,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
     +set sv_tags "PQL,3Wave,CaptureStrike,$sponsortag" \
-    +set g_voteFlags "9320" \
+    +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
@@ -80,8 +80,8 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "PQL,defrag,grappling hook,crouch slide,$sponsortag" \
-    +set g_voteFlags "9320" \
+    +set sv_tags "PQL,defrag,QLRace,turbo,$sponsortag" \
+    +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
@@ -102,7 +102,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL,classic,$sponsortag" \
-    +set g_voteFlags "9320" \
+    +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
@@ -123,7 +123,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL,loadouts,$sponsortag" \
-    +set g_voteFlags "9320" \
+    +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_loadout 1 \
@@ -146,7 +146,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
     +set sv_tags "PQL,CA,$sponsortag" \
-    +set g_voteFlags "9320" \
+    +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
@@ -167,7 +167,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL,$sponsortag" \
-    +set g_voteFlags "9320" \
+    +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_timeoutCount 3 \
@@ -190,7 +190,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL,Ultra Freeze Tag,$sponsortag" \
-    +set g_voteFlags "9320" \
+    +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
@@ -203,7 +203,7 @@ echo "Starting RA3 server 1..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking Rocket Arena 3" \
+    +set sv_hostname "    #$servernum let's start cooking CA - Rocket Arena 3" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -211,6 +211,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
     +set sv_tags "RA3,Rocket Arena 3,$sponsortag" \
+    +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
@@ -231,7 +232,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL,$sponsortag" \
-    +set g_voteFlags "9320" \
+    +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_timeoutCount 3 \
@@ -254,6 +255,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_password "" \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL,$sponsortag" \
+    +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_timeoutCount 3 \
