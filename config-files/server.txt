@@ -30,7 +30,7 @@ set g_warmupDelay "15"               // Wait x seconds before allowing match to 
 set g_warmupReadyDelay "0"           // Force the game to start after x seconds after someone readies up.
 set g_warmupReadyDelayAction "1"     // Set to 1 to force players to spectator after g_warmupReady Delay, 2 to force ready up.
 
-set g_inactivity "120"  // Kick players who are inactive for x amount of seconds.
+set g_inactivity "180"  // Kick players who are inactive for x amount of seconds.
 set teamsize 0
 set con_tty 0
 
