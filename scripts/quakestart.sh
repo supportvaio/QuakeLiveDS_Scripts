@@ -48,28 +48,28 @@ exec $qPathToMinqlxStartScript \
 elif [ $1 -eq 1 ]
 # starting VQL CA 1
 then
-echo "Starting PQL AD server 1..."
+echo "Starting PQL VQL race server 1..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking PQL - 3Wave's CaptureStrike" \
+    +set sv_hostname "    #$servernum let's start cooking VQL - Race" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "PQL,3Wave,CaptureStrike,$sponsortag" \
+    +set sv_tags "VQL,defrag,QLRace,classic,$sponsortag" \
     +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "mappool_pqlad3WaveCaptureStrike.txt" \
+    +set sv_mappoolFile "mappool_qlrace_classic.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 2 ]
 # starting PQL Race 1...
 then
-echo "Starting race server 1..."
+echo "Starting PQL race server 1..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
@@ -178,44 +178,46 @@ exec $qPathToMinqlxStartScript \
 elif [ $1 -eq 7 ]
 # starting PQL TDM 1...
 then
-echo "Starting VQL FT server 1..."
+echo "Starting VQL TDM server 1..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking Ultra Freeze Tag" \
+    +set sv_hostname "    #$servernum let's start cooking TDM" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "VQL,Ultra Freeze Tag,$sponsortag" \
+    +set sv_tags "VQL,classic,$sponsortag" \
+    +set g_friendlyfire 0 \
+    +set g_loadout 0 \
     +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "mappool_vqluft.txt" \
+    +set sv_mappoolFile "mappool_vqltdm.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 8 ]
 # starting PQL MultiGame 1...
 then
-echo "Starting RA3 server 1..."
+echo "Starting VQL duel server 4..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking CA - Rocket Arena 3" \
+    +set sv_hostname "    #$servernum let's start cooking Duel" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "RA3,Rocket Arena 3,$sponsortag" \
+    +set sv_tags "VQL,$sponsortag" \
     +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "mappool_ca_ra3.txt" \
+    +set sv_mappoolFile "mappool_vqlduel.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 9 ]
 # starting vql duel 1...

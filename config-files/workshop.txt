@@ -37,8 +37,8 @@
 # Map - bigdm6
 547481475
 
-# Map - ospca1
-547440173
+# Maps - OSP (ospca1, ospctf[1,2], ospdm[1..12])
+575312620
 
 # Map - ztn3dm2
 547937675
@@ -170,6 +170,33 @@
 
 # Map - oxodm2a (FFA)
 560548198
+
+# Map - ql_dust, ql_dust2 (FFA, TDM, CA)
+572015381
+
+# Maps - jof3dm1 jof3dm2 (FFA)
+573112415
+
+# Maps - beneath uranus summer winter 
+573898676
+
+# Defrag mappack - Run #1
+569569643
+
+# Defrag mappack - CS
+573229007
+
+# Defrag map - raztrainql_beta3
+568582691
+
+# Defrag map - koz25
+569922415
+
+# Map - cpm28 (FFA, CA, TDM)
+570844629
+
+# Defrag mappack - Freestyle #1
+569570727
 
 
 

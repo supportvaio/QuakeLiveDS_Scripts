@@ -5,7 +5,9 @@ almostlost|ca
 asylum|ca
 blackcathedral|ca
 bloodrun|ca
+bloodrunblue|ca
 campgrounds|ca
+campgroundsblue|ca
 cannedheat|ca
 cliffside|ca
 deepinside|ca
@@ -34,5 +36,5 @@ bigdm6|ca
 ospca1|ca
 dm6remix|ca
 oxodm102_b1|ca
-therage|ca
-hogwarts|ca
+ql_dust2|ca
+ql_dust|ca
