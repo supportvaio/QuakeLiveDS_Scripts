@@ -15,7 +15,7 @@ set com_hunkMegs "60"      // May need to be increased for additional players.
 set sv_master 1
 set sv_serverType 2
 
-set g_floodprot_maxcount "10"  // Kick the player when their flood counter reaches this level.
+set g_floodprot_maxcount "50"  // Kick the player when their flood counter reaches this level.
 set g_floodprot_decay "1000"   // Decrease the flood counter by 1 this often, in milliseconds.
 
 set g_voteDelay "0" // Delay allowing votes for x milliseconds after map load.
@@ -43,7 +43,7 @@ set serverstartup "startRandomMap"
 
 set qlx_owner "76561198032849113"
 
-set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, irc, docs, fun, balance"
+set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance"
 
 set qlx_enforceSteamName "0"
 
