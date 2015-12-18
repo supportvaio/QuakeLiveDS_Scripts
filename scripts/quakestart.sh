@@ -43,7 +43,7 @@ exec $qPathToMinqlxStartScript \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "/home/qlserver/steamcmd/steamapps/common/qlds/baseq3/mappool_vqlca.txt" \
+    +set sv_mappoolFile "mappool_vqlca.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 1 ]
 # starting VQL CA 1
@@ -64,7 +64,7 @@ exec $qPathToMinqlxStartScript \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "/home/qlserver/steamcmd/steamapps/common/qlds/baseq3/mappool_qlrace_classic.txt" \
+    +set sv_mappoolFile "mappool_qlrace_classic.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 2 ]
 # starting PQL Race 1...
@@ -85,7 +85,7 @@ exec $qPathToMinqlxStartScript \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "/home/qlserver/steamcmd/steamapps/common/qlds/baseq3/mappool_qlrace_turbo.txt" \
+    +set sv_mappoolFile "mappool_qlrace_turbo.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 3 ]
 # starting PQL FFA 1...
@@ -106,7 +106,7 @@ exec $qPathToMinqlxStartScript \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "/home/qlserver/steamcmd/steamapps/common/qlds/baseq3/mappool_vqlffa.txt" \
+    +set sv_mappoolFile "mappool_vqlffa.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 4 ]
 # starting PQL CTF 1...
@@ -128,7 +128,7 @@ exec $qPathToMinqlxStartScript \
     +set g_allowVoteMidGame 1 \
     +set g_loadout 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "/home/qlserver/steamcmd/steamapps/common/qlds/baseq3/mappool_vqlffa.txt" \
+    +set sv_mappoolFile "mappool_vqlffa.txt" \
     +set serverstartup "startRandomMap" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 5 ]
@@ -150,7 +150,7 @@ exec $qPathToMinqlxStartScript \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "/home/qlserver/steamcmd/steamapps/common/qlds/baseq3/mappool_pqlca.txt" \
+    +set sv_mappoolFile "mappool_pqlca.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 6 ]
 # starting PQL INFECTED 1...
@@ -173,7 +173,7 @@ exec $qPathToMinqlxStartScript \
     +set g_timeoutCount 3 \
     +set g_timeoutLen 30 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "/home/qlserver/steamcmd/steamapps/common/qlds/baseq3/mappool_vqlduel.txt" \
+    +set sv_mappoolFile "mappool_vqlduel.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 7 ]
 # starting PQL TDM 1...
@@ -196,7 +196,7 @@ exec $qPathToMinqlxStartScript \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "/home/qlserver/steamcmd/steamapps/common/qlds/baseq3/mappool_vqltdm.txt" \
+    +set sv_mappoolFile "mappool_vqltdm.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 8 ]
 # starting PQL MultiGame 1...
@@ -217,7 +217,7 @@ exec $qPathToMinqlxStartScript \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "/home/qlserver/steamcmd/steamapps/common/qlds/baseq3/mappool_vqlduel.txt" \
+    +set sv_mappoolFile "mappool_vqlduel.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 9 ]
 # starting vql duel 1...
@@ -240,7 +240,7 @@ exec $qPathToMinqlxStartScript \
     +set g_timeoutCount 3 \
     +set g_timeoutLen 30 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "/home/qlserver/steamcmd/steamapps/common/qlds/baseq3/mappool_vqlduel.txt" \
+    +set sv_mappoolFile "mappool_vqlduel.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 10 ]
 # starting VQL iCTF 1...
@@ -263,7 +263,7 @@ exec $qPathToMinqlxStartScript \
     +set g_timeoutCount 3 \
     +set g_timeoutLen 30 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "/home/qlserver/steamcmd/steamapps/common/qlds/baseq3/mappool_vqlduel.txt" \
+    +set sv_mappoolFile "mappool_vqlduel.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 11 ]
 # starting mickzerofive's brisbane server 1...
