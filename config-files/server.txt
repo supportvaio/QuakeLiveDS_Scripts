@@ -47,4 +47,4 @@ set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names,
 
 set qlx_enforceSteamName "0"
 
-set qlx_motdHeader "Commands ^1!elo^7, ^1!balance^7, ^1!shuffle^7 are available. Stats at ^5http://qlstats.net^7"
+set qlx_motdHeader "Commands ^1!elo^7, ^1!ratings^7, ^1!balance^7, ^1!shuffle^7, ^1!teams^7 are available. Stats at ^5http://qlstats.net^7"
