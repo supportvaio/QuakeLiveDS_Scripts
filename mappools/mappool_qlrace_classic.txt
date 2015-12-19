@@ -125,3 +125,13 @@ df_jjm2|mg_race_noweap_vql
 df_momentum|mg_race_noweap_vql 
 koz25|qlrace_classic
 raztrainql_beta3|qlrace_classic
+df_minions_run13|mg_race_noweap_vql
+df_minions_run11|mg_race_noweap_vql
+df_minions_run8|mg_race_noweap_vql
+df_minions_run6|mg_race_noweap_vql
+df_minions_run5|mg_race_noweap_vql
+df_24run|mg_race_noweap_vql
+df_b0_beta6|mg_race_vql
+df_bliss|mg_race_vql
+df_opc1|mg_race_vql
+df_opc2|mg_race_vql

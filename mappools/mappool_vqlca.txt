@@ -38,3 +38,7 @@ dm6remix|ca
 oxodm102_b1|ca
 ql_dust2|ca
 ql_dust|ca
+ra3map12a|ca
+ra3map9|pqlca
+okremix|ca
+6plus|ca

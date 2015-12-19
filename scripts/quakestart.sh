@@ -10,7 +10,7 @@ export qPathToMinqlxStartScript="~/steamcmd/steamapps/common/qlds/run_server_x64
 export qPathToVanillaStartScript="~/steamcmd/steamapps/common/qlds/run_server_x64.sh"
 export qRconPasswordPurgery=$(<~/localConfig-rconPassword-purgery.txt)
 export qRconPassword4sg=$(<~/localConfig-rconPassword-mickzerofive.txt)
-sponsortag="Elo,RU,EKB"
+sponsortag="RU,EKB"
 
 gameport=`expr $1 + 27960`
 rconport=`expr $1 + 28960`
@@ -38,7 +38,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "VQL,CA,$sponsortag" \
+    +set sv_tags "Elo,VQL,CA,$sponsortag" \
     +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
@@ -101,7 +101,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "VQL,classic,$sponsortag" \
+    +set sv_tags "Elo,VQL,classic,$sponsortag" \
     +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
@@ -122,7 +122,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "VQL,loadouts,$sponsortag" \
+    +set sv_tags "Elo,VQL,loadouts,$sponsortag" \
     +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
@@ -145,7 +145,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "PQL,CA,$sponsortag" \
+    +set sv_tags "Elo,PQL,CA,$sponsortag" \
     +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
@@ -166,7 +166,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "VQL,$sponsortag" \
+    +set sv_tags "Elo,VQL,$sponsortag" \
     +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
@@ -189,7 +189,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "VQL,classic,$sponsortag" \
+    +set sv_tags "Elo,VQL,classic,$sponsortag" \
     +set g_friendlyfire 0 \
     +set g_loadout 0 \
     +set g_voteFlags "8" \
@@ -205,19 +205,19 @@ echo "Starting VQL duel server 4..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking Duel" \
+    +set sv_hostname "    #$servernum let's start cooking Duel Extra" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "VQL,$sponsortag" \
+    +set sv_tags "Elo,VQL,$sponsortag" \
     +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "mappool_vqlduel.txt" \
+    +set sv_mappoolFile "mappool_vqlduelextra.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 9 ]
 # starting vql duel 1...
@@ -233,7 +233,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "VQL,$sponsortag" \
+    +set sv_tags "Elo,QL,$sponsortag" \
     +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
@@ -256,7 +256,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "VQL,$sponsortag" \
+    +set sv_tags "Elo,VQL,$sponsortag" \
     +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \

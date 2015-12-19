@@ -198,5 +198,32 @@
 # Defrag mappack - Freestyle #1
 569570727
 
+# Map - easyshaft (Duel, training)
+578431746
 
+# Map - q3tourney2 (Duel, FFA)
+573253008
 
+# Map - nemesis (FFA, CA)
+577333309
+
+# Defrag mappack - Run #2
+572919498
+
+# Defrag mappack - Freestyle #2
+572836688
+
+# Maps - qfraggel1 qfraggel2a qfraggel3ffa
+573807159
+
+# Map and mod - maido
+542770475
+
+# Map - okremix (CA, FFA)
+549600167
+
+# Map - proverek (CA, FFA)
+560610357
+
+# Map - 6plus (CA, FFA)
+547252823
