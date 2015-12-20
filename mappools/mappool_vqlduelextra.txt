@@ -26,3 +26,15 @@ qldarkzone|duel
 qldamned|duel
 qlq2dm3|duel
 ospdm8|duel
+cht3|duel
+fjo3tourney1|duel
+megadm4-09|duel
+ne_duel|duel
+ospdm8a|duel
+q3nem06_v2|duel
+rota3dm1|duel
+rota3dm2|duel
+rota3tourney1|duel
+pukka3tourney3|duel
+cpm23|duel
+cpm15|duel

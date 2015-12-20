@@ -201,9 +201,6 @@
 # Map - easyshaft (Duel, training)
 578431746
 
-# Map - q3tourney2 (Duel, FFA)
-573253008
-
 # Map - nemesis (FFA, CA)
 577333309
 
@@ -227,3 +224,6 @@
 
 # Map - 6plus (CA, FFA)
 547252823
+
+# Quake Live Extra Duel Maps
+579717457

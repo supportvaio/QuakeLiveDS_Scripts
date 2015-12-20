@@ -61,7 +61,6 @@ runtfest|ffa
 fff|ffa
 69pickup1|ffa
 sleep|ffa
-chronic|ffa
 dm6remix|ffa
 nalq1dm6|ffa
 oxodm102_b1|ffa
