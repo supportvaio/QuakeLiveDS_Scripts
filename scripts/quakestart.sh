@@ -178,25 +178,23 @@ exec $qPathToMinqlxStartScript \
 elif [ $1 -eq 7 ]
 # starting PQL TDM 1...
 then
-echo "Starting VQL TDM server 1..."
+echo "Starting VQL CA server 2..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking TDM | Elo shuffle" \
+    +set sv_hostname "    #$servernum let's start cooking Clan Arena Noobs" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "Elo,VQL,classic,$sponsortag" \
-    +set g_friendlyfire 0 \
-    +set g_loadout 0 \
+    +set sv_tags "Elo,VQL,CA,$sponsortag" \
     +set g_voteFlags "8" \
-    +set g_allowSpecVote 0 \
+    +set g_allowSpecVote 1 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "mappool_vqltdm.txt" \
+    +set sv_mappoolFile "mappool_vqlca.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 8 ]
 # starting PQL MultiGame 1...
