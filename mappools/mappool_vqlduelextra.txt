@@ -14,11 +14,10 @@ elder|duel
 verticalvengeance|duel
 provinggrounds|duel
 easyshaft|duel
-eye2eye|duel
+eyetoeye|duel
 q3tourney2|duel
 provinggrounds|duel
 dismemberment|duel
-maido|maido
 qlclaustro|duel
 qlabandoned|duel
 qlbadplace|duel
@@ -38,3 +37,5 @@ rota3tourney1|duel
 pukka3tourney3|duel
 cpm23|duel
 cpm15|duel
+powerstation|duel
+arenagate|duel

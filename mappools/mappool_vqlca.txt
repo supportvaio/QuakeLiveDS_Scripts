@@ -17,6 +17,7 @@ eviscerated|ca
 evolution|ca
 hearth|ca
 hellsgate|ca
+hellsgateredux|ca
 hiddenfortress|ca
 leviathan|ca
 limbus|ca
@@ -42,3 +43,6 @@ ra3map12a|ca
 ra3map9|pqlca
 okremix|ca
 6plus|ca
+spacecamp|ca
+eyetoeye|ca
+electrichead|ca
