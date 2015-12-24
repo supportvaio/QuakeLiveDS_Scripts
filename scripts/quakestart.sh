@@ -31,19 +31,22 @@ echo "Starting clan arena server 1..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "     #$servernum let's start cooking HoQ Clan Arena | Elo shuffle" \
+    +set sv_hostname "     #$servernum let's start cooking Clan Arena | Elo (qlstats.net)" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "Elo,VQL,CA,HoQ,House of Quake,$sponsortag" \
+    +set sv_tags "Elo,VQL,CA,House of Quake,$sponsortag" \
     +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
+    +set bot_enable 1 \
+    +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlca.txt" \
+    +set serverstartup "map campgrounds" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 1 ]
 # starting VQL CA 1
@@ -105,8 +108,11 @@ exec $qPathToMinqlxStartScript \
     +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
+    +set bot_enable 1 \
+    +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlffa.txt" \
+    +set serverstartup "map hiddenfortress" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 4 ]
 # starting PQL CTF 1...
@@ -127,9 +133,11 @@ exec $qPathToMinqlxStartScript \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_loadout 1 \
+    +set bot_enable 1 \
+    +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlffa.txt" \
-    +set serverstartup "startRandomMap" \
+    +set serverstartup "map campgrounds" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 5 ]
 # starting PQL DOM 1...
@@ -149,8 +157,11 @@ exec $qPathToMinqlxStartScript \
     +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
+    +set bot_enable 1 \
+    +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlca.txt" \
+    +set serverstartup "map campgrounds" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 6 ]
 # starting PQL INFECTED 1...
@@ -174,6 +185,7 @@ exec $qPathToMinqlxStartScript \
     +set g_timeoutLen 30 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduel.txt" \
+    +set serverstartup "map bloodrun" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 7 ]
 # starting PQL TDM 1...
@@ -193,6 +205,8 @@ exec $qPathToMinqlxStartScript \
     +set g_voteFlags "8" \
     +set g_allowSpecVote 1 \
     +set g_allowVoteMidGame 1 \
+    +set bot_enable 1 \
+    +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_instabounce.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -216,6 +230,7 @@ exec $qPathToMinqlxStartScript \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduelextra.txt" \
+    +set serverstartup "map q3tourney2" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 9 ]
 # starting vql duel 1...
@@ -239,6 +254,7 @@ exec $qPathToMinqlxStartScript \
     +set g_timeoutLen 30 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduel.txt" \
+    +set serverstartup "map aerowalk" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 10 ]
 # starting VQL iCTF 1...
@@ -262,6 +278,7 @@ exec $qPathToMinqlxStartScript \
     +set g_timeoutLen 30 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduel.txt" \
+    +set serverstartup "map cure" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 11 ]
 # starting mickzerofive's brisbane server 1...
