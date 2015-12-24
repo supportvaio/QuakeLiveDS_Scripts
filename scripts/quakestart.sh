@@ -46,7 +46,6 @@ exec $qPathToMinqlxStartScript \
     +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlca.txt" \
-    +set serverstartup "map campgrounds" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 1 ]
 # starting VQL CA 1
@@ -112,7 +111,6 @@ exec $qPathToMinqlxStartScript \
     +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlffa.txt" \
-    +set serverstartup "map hiddenfortress" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 4 ]
 # starting PQL CTF 1...
@@ -137,7 +135,6 @@ exec $qPathToMinqlxStartScript \
     +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlffa.txt" \
-    +set serverstartup "map campgrounds" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 5 ]
 # starting PQL DOM 1...
@@ -161,7 +158,6 @@ exec $qPathToMinqlxStartScript \
     +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_pqlca.txt" \
-    +set serverstartup "map campgrounds" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 6 ]
 # starting PQL INFECTED 1...
@@ -185,7 +181,6 @@ exec $qPathToMinqlxStartScript \
     +set g_timeoutLen 30 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduel.txt" \
-    +set serverstartup "map bloodrun" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 7 ]
 # starting PQL TDM 1...
@@ -230,7 +225,6 @@ exec $qPathToMinqlxStartScript \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduelextra.txt" \
-    +set serverstartup "map q3tourney2" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 9 ]
 # starting vql duel 1...
@@ -254,7 +248,6 @@ exec $qPathToMinqlxStartScript \
     +set g_timeoutLen 30 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduel.txt" \
-    +set serverstartup "map aerowalk" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 10 ]
 # starting VQL iCTF 1...
@@ -278,7 +271,6 @@ exec $qPathToMinqlxStartScript \
     +set g_timeoutLen 30 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduel.txt" \
-    +set serverstartup "map cure" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 11 ]
 # starting mickzerofive's brisbane server 1...
