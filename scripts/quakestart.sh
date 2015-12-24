@@ -31,14 +31,14 @@ echo "Starting clan arena server 1..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "     #$servernum let's start cooking Clan Arena | Elo shuffle" \
+    +set sv_hostname "     #$servernum let's start cooking HoQ Clan Arena | Elo shuffle" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "Elo,VQL,CA,$sponsortag" \
+    +set sv_tags "Elo,VQL,CA,HoQ,House of Quake,$sponsortag" \
     +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
@@ -178,23 +178,23 @@ exec $qPathToMinqlxStartScript \
 elif [ $1 -eq 7 ]
 # starting PQL TDM 1...
 then
-echo "Starting VQL CA server 2..."
+echo "Starting InstaBounce server 1..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking Clan Arena Noobs" \
+    +set sv_hostname "    #$servernum let's start cooking InstaBounce FFA" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "Elo,VQL,CA,$sponsortag" \
+    +set sv_tags "Elo,instagib,instabounce,$sponsortag" \
     +set g_voteFlags "8" \
     +set g_allowSpecVote 1 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "mappool_vqlca.txt" \
+    +set sv_mappoolFile "mappool_instabounce.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 8 ]
 # starting PQL MultiGame 1...

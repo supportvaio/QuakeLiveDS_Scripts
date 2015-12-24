@@ -39,3 +39,4 @@ cpm23|duel
 cpm15|duel
 powerstation|duel
 arenagate|duel
+campgrounds|duel

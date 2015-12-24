@@ -227,3 +227,10 @@
 
 # Quake Live Extra Duel Maps
 579717457
+
+# Factory - InstaBounce
+555090786
+
+# Factories - House of Quake CA, TDM, CTF + noHMG
+547440642
+543197560
