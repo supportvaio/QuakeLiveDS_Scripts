@@ -38,7 +38,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "Elo,VQL,CA,House of Quake,$sponsortag" \
+    +set sv_tags "Elo,VQL,CA,$sponsortag" \
     +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
