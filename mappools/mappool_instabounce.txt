@@ -62,7 +62,6 @@ jof3dm1|ib_ffa
 ql_dust|ib_ffa
 ql_dust2|ib_ffa
 qfraggel1|ib_ffa
-nemesis|ib_ffa
 wintersedge|ib_ffa
 spacecamp|ib_ffa
 okremix|ib_ffa
