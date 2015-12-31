@@ -52,5 +52,5 @@ set qlx_enforceSteamName "0"
 set qlx_motdHeader "Commands: ^1!elo^7, ^1!elos^7, ^1!balance^7, ^1!teams^7, ^3/callvote nextmap^7 etc. Stats at ^5http://qlstats.net^7"
 
 set qlx_serverBrandName "let's start cooking"
-set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!elo^7, ^1!elos^7,"
-set qlx_serverBrandBottomField "^1!balance^7 (CA), ^1!teams^7 (CA), ^1!top^7 (Race), ^1!help^7 (Race), ^3/callvote nextmap^7 etc."
+set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!elo^7, ^1!elos^7, ^1!balance^7 (CA), ^1!teams^7 (CA), ^1!top^7 (Race),"
+set qlx_serverBrandBottomField "^1!help^7 (Race), ^3/callvote nextmap^7 etc. Elo in all modes depends on your score per second, NOT on wins / losses"
