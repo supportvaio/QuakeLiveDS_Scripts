@@ -49,7 +49,6 @@ ztn3dm2|ffa
 q1dm6|ffa
 marsv1|ffa
 ts_dm5|ffa
-runtfest|ffa
 fff|ffa
 69pickup1|ffa
 sleep|ffa
