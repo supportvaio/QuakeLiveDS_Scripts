@@ -8,10 +8,11 @@ bloodrun|ca
 bloodrunblue|ca
 campgrounds|ca
 campgroundsblue|ca
+campgrounds|ca
+campgroundsblue|ca
 cannedheat|ca
 cliffside|ca
 deepinside|ca
-dreadfulplace|ca
 drunkenmummy|ca
 eviscerated|ca
 evolution|ca
@@ -21,6 +22,8 @@ hellsgateredux|ca
 hiddenfortress|ca
 leviathan|ca
 limbus|ca
+overkill|ca
+overkill|ca
 overkill|ca
 purgatory|ca
 quarantine|ca
@@ -46,3 +49,4 @@ okremix|ca
 spacecamp|ca
 eyetoeye|ca
 electrichead|ca
+q3scamp15mc|ca

@@ -202,7 +202,7 @@
 578431746
 
 # Map - nemesis (FFA, CA)
-577333309
+588297581
 
 # Defrag mappack - Run #2
 572919498
@@ -234,3 +234,85 @@
 # Factories - House of Quake CA, TDM, CTF + noHMG
 547440642
 543197560
+
+# Map - Painless (FFA)
+544872333
+
+# Map - Switch (Duel)
+540068166
+
+# Map - aerospace (Duel, FFA)
+582657472
+
+# Map - jex3dm1 (FFA)
+583820600
+
+# Map - ek3dm1 (FFA)
+583821136
+
+# Map - cpm18r (FFA)
+583821497
+
+# Maps - cmp1-dm6 el3dm1 el3t3 el3t4 (Duel, FFA)
+583920201
+
+# Maps - charon3dm{1..13}
+584176488
+
+# Maps - sin wdw3dm3 wdw3dm4 wdw3team1
+584964611
+
+# Map - qxdm3 (FFA)
+584984132
+
+# Map - qxdm4_v2 (FFA)
+584984610
+
+# Maps - rjldm1 rjldm2 rjldm3 rjldom1
+585008637
+
+# Map - hub3aeroq3a (Duel, FFA)
+585060057
+
+# Map - cpm24 (FFA)
+585062856
+
+# Map - davinci (FFA)
+585119731
+
+# Maps - lun3dm{1..4}
+585770260
+
+# Map - psidm7
+585781036
+
+# Map - cpm8
+585784905
+
+# Map - opium
+586817666
+
+# Map - haunted
+586818000
+
+# Maps - 1plus 5plus 6plusplus 7plus 16plus 16plusplus 17plus
+587950516
+
+# Map - bal3dm4
+588238794
+
+# Map - uzul3
+588286307
+
+# Map - q3scamp15mc
+588430438
+
+# Map - bal3void2
+588911765
+
+# Map - cloudwalk (Duel, FFA, CA)
+590113525
+
+# Map - facingworlds (CTF)
+589313020
+
