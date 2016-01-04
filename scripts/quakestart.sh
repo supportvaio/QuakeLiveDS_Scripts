@@ -186,7 +186,7 @@ exec $qPathToMinqlxStartScript \
     +set g_timeoutCount 3 \
     +set g_timeoutLen 30 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "mappool_vqlduel.txt" \
+    +set sv_mappoolFile "mappool_vqlduelextra.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 7 ]
 # starting PQL TDM 1...
@@ -218,7 +218,7 @@ echo "Starting VQL duel server 4..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking Duel Extra" \
+    +set sv_hostname "    #$servernum let's start cooking Duel" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -253,7 +253,7 @@ exec $qPathToMinqlxStartScript \
     +set g_timeoutCount 3 \
     +set g_timeoutLen 30 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "mappool_vqlduel.txt" \
+    +set sv_mappoolFile "mappool_vqlduelextra.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 10 ]
 # starting VQL iCTF 1...
@@ -276,7 +276,7 @@ exec $qPathToMinqlxStartScript \
     +set g_timeoutCount 3 \
     +set g_timeoutLen 30 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "mappool_vqlduel.txt" \
+    +set sv_mappoolFile "mappool_vqlduelextra.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 11 ]
 # starting mickzerofive's brisbane server 1...
