@@ -33,3 +33,6 @@ hearth|pqlca
 ra3map9|pqlca
 okremix|pqlca
 6plus|pqlca
+cpm23|pqlca
+cpm24|pqlca
+cpm15|pqlca
