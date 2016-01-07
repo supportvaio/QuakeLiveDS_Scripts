@@ -40,15 +40,6 @@ dredwerkz|qlrace_turbo
 devilish|qlrace_turbo
 dismemberment|qlrace_turbo
 purgatory|qlrace_turbo
-cpm1|qlrace_turbo
-cpm2|qlrace_turbo
-cpm3|qlrace_turbo
-cpm4|qlrace_turbo
-cpm5|qlrace_turbo
-cpm6|qlrace_turbo
-cpm7|qlrace_turbo
-cpm8|qlrace_turbo
-cpm10|qlrace_turbo
 df_0ups|qlrace_turbo
 df_o3jvelocity|qlrace_turbo
 df_cityrocket|qlrace_turbo
@@ -96,11 +87,6 @@ df_lickshit|qlrace_turbo
 df_licksux|qlrace_turbo
 df_licktards|qlrace_turbo
 df_licktunnel|qlrace_turbo
-df_cpma3x-1|qlrace_turbo
-df_cpma3x-2|qlrace_turbo
-df_cpma3x-3|qlrace_turbo
-df_cpma3x-4|qlrace_turbo
-df_cpma3x-5|qlrace_turbo
 df_tr1ckhouse|qlrace_turbo
 cos1_beta7b|qlrace_turbo
 df_pornstarslopin|qlrace_turbo

@@ -39,3 +39,5 @@ aerospace|duel
 switch|duel
 cpm24|duel
 q3scamp15mc|duel
+sorrow|duel
+spillway|duel
