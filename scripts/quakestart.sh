@@ -62,7 +62,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL,defrag,QLRace,classic,$sponsortag" \
-    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, aliases, branding, votestats, custom_votes, race" \
+    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, aliases, branding, votestats, race" \
     +set qlx_raceMode "2" \
     +set qlx_raceBrand "let's start cooking" \
     +set g_voteFlags "8" \
@@ -86,7 +86,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
     +set sv_tags "PQL,defrag,QLRace,turbo,$sponsortag" \
-    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, aliases, branding, votestats, custom_votes, race" \
+    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, aliases, branding, votestats, race" \
     +set qlx_raceMode "0" \
     +set qlx_raceBrand "let's start cooking" \
     +set g_voteFlags "8" \
