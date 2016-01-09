@@ -9,7 +9,6 @@ export qServerLocation=$(<localConfig-serverLocation.txt)
 export qPathToMinqlxStartScript="~/steamcmd/steamapps/common/qlds/run_server_x64_minqlx.sh"
 export qPathToVanillaStartScript="~/steamcmd/steamapps/common/qlds/run_server_x64.sh"
 export qRconPasswordPurgery=$(<~/localConfig-rconPassword-purgery.txt)
-export qRconPassword4sg=$(<~/localConfig-rconPassword-mickzerofive.txt)
 sponsortag="RU,EKB"
 
 gameport=`expr $1 + 27960`
@@ -278,37 +277,4 @@ exec $qPathToMinqlxStartScript \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduelextra.txt" \
     +set fs_homepath ~/.quakelive/$gameport
-elif [ $1 -eq 11 ]
-# starting mickzerofive's brisbane server 1...
-then
-if [ $(hostname) == "brisbane.quakelive.tomtecsolutions.com.au" ]
-then
-echo "Starting mickzerofive's server..."
-exec $qPathToVanillaStartScript \
-    +set net_strict 1 \
-    +set net_port $gameport \
-    +set sv_hostname "http://4SeasonsGaming.com $qServerLocation" \
-    +set zmq_rcon_enable 1 \
-    +set zmq_rcon_password "$(<localConfig-rconPassword-mickzerofive.txt)" \
-    +set zmq_rcon_port $rconport \
-    +set zmq_stats_enable 1 \
-    +set zmq_stats_password "$(<localConfig-rconPassword-mickzerofive.txt)" \
-    +set zmq_stats_port $gameport \
-    +set sv_tags "4Seasons Gaming,$qServerLocation" \
-    +set g_allowSpecVote 0 \
-    +set g_allowVoteMidGame 1 \
-    +set g_accessFile "access_mickzerofive.txt" \
-    +set sv_mappoolFile "mappool_default.txt" \
-    +set fs_homepath ~/.quakelive/$gameport
-else
-echo "This system is not intended to host MickZeroFive's server."
 fi
-
-fi
-
-
-# Unused cvars.
-# +set sv_mapPoolFile "mappool_pqlca.txt" \
-# +set net_ip "quakelive.tomtecsolutions.com.au" \
-# +set com_hunkMegs 30 \
-# +set sv_idleExit 0
