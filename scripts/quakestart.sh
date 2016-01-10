@@ -31,7 +31,7 @@ echo "Starting clan arena server 1..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "     #$servernum let's start cooking Clan Arena | Elo (qlstats.net)" \
+    +set sv_hostname "    #$servernum let's start cooking Classic CA | Elo" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -149,7 +149,7 @@ echo "Starting PQL clan arena server 1..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking PQL - Clan Arena | Elo shuffle" \
+    +set sv_hostname "    #$servernum let's start cooking PQL - CA | Elo shuffle" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
