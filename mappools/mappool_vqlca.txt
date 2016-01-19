@@ -86,3 +86,6 @@ eyetoeye|ca
 electrichead|ca
 q3scamp15mc|ca
 6plusplus|ca
+proverek|ca
+ts_ca1|ca
+ca_tamb|ca

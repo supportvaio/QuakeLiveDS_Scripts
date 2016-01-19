@@ -199,3 +199,6 @@ jex3dm1|ffa
 aerospace|ffa
 painless|ffa
 cpm24|ffa
+dust_dm1|ffa
+geit3dm6|ffa
+zl3tourney1|ffa

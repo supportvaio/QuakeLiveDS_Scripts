@@ -31,7 +31,7 @@ echo "Starting clan arena server 1..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking Classic CA | Elo" \
+    +set sv_hostname "    #$servernum let's start cooking CA Classic | Elo shuffle" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -50,7 +50,7 @@ exec $qPathToMinqlxStartScript \
 elif [ $1 -eq 1 ]
 # starting VQL CA 1
 then
-echo "Starting PQL VQL race server 1..."
+echo "Starting VQL race server 1..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
@@ -86,7 +86,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
     +set sv_tags "PQL,defrag,QLRace,turbo,$sponsortag" \
-    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, aliases, branding, votestats, race" \
+    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, aliases, branding, votestats, race, translate" \
     +set qlx_raceMode "0" \
     +set qlx_raceBrand "let's start cooking" \
     +set g_voteFlags "8" \
@@ -145,25 +145,26 @@ exec $qPathToMinqlxStartScript \
 elif [ $1 -eq 5 ]
 # starting PQL DOM 1...
 then
-echo "Starting PQL clan arena server 1..."
+echo "Starting Clan arena server 2..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking PQL - CA | Elo shuffle" \
+    +set sv_hostname "    #$servernum let's start cooking CA Easy | Anti-rape" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "Elo,PQL,CA,$sponsortag" \
+    +set sv_tags "Elo,VQL,CA,anti-rape,$sponsortag" \
+    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, aliases, branding, votestats, autospec, translate, player_info, anti_rape, referee, checkplayers, vote" \
     +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "mappool_pqlca.txt" \
+    +set sv_mappoolFile "mappool_vqlca.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 6 ]
 # starting PQL INFECTED 1...
@@ -214,23 +215,26 @@ exec $qPathToMinqlxStartScript \
 elif [ $1 -eq 8 ]
 # starting PQL MultiGame 1...
 then
-echo "Starting VQL duel server 4..."
+echo "Starting Midair server 1..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking Duel" \
+    +set sv_hostname "    #$servernum let's start cooking Midair FFA/Duel" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "Elo,VQL,$sponsortag" \
+    +set sv_tags "Elo,VQL,Midair,rocketinstagib,$sponsortag" \
+    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, aliases, branding, votestats, autospec, translate, player_info, midair_only, referee, checkplayers, vote" \
+    +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!top^7, ^1!mytop^7, ^1!kills^7," \
+    +set qlx_serverBrandBottomField "^3/cv nextmap^7, ^3/cv rocketinstagib ^2on^7/^1off^7" \
     +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "mappool_vqlduelextra.txt" \
+    +set sv_mappoolFile "mappool_midair.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 9 ]
 # starting vql duel 1...

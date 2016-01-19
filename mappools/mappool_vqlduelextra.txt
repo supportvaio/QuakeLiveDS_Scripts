@@ -41,3 +41,7 @@ cpm24|duel
 q3scamp15mc|duel
 sorrow|duel
 spillway|duel
+d_tourney1a|duel
+geit3dm6|duel
+gridworks|duel
+zl3tourney1|duel

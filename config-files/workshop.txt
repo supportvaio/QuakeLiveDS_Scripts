@@ -316,3 +316,30 @@
 # Map - facingworlds (CTF)
 589313020
 
+# Map - gd_tourney1a (Duel)
+600299201
+
+# Map - dust_dm1 (FFA)
+600287256
+
+# Map - geit3dm6 (FFA, Duel)
+599947198
+
+# Map - gridworks (Duel)
+599720061
+
+# Rocket mappack - 13cube, 13island, 13stone, arenaraiders, ultra, time2fly, gmmoshpitra
+599095486
+
+# Map - ts_ca1 (CA, FFA)
+597920398
+
+# Map - ca_tamb (CA, FFA)
+597914676
+
+# Map - zl3tourney1 (Duel, FFA)
+597391077
+
+# Midair mappack - dade3midair1 endifacid midair1 nmx2 ns_midair qmtdm2 reqbouncerl ts_midair1 
+596113472
+
