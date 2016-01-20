@@ -157,7 +157,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
     +set sv_tags "Elo,VQL,CA,anti-rape,$sponsortag" \
-    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, aliases, branding, votestats, autospec, translate, player_info, anti_rape, referee, checkplayers, vote" \
+    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, aliases, branding, votestats, autospec, translate, player_info, anti_rape, checkplayers, vote" \
     +set g_voteFlags "8" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
@@ -227,7 +227,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
     +set sv_tags "Elo,VQL,Midair,rocketinstagib,$sponsortag" \
-    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, aliases, branding, votestats, autospec, translate, player_info, midair_only, referee, checkplayers, vote" \
+    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, aliases, branding, votestats, autospec, translate, player_info, midair_only, checkplayers, vote" \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!top^7, ^1!mytop^7, ^1!kills^7," \
     +set qlx_serverBrandBottomField "^3/cv nextmap^7, ^3/cv rocketinstagib ^2on^7/^1off^7" \
     +set g_voteFlags "8" \
