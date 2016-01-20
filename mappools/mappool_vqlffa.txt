@@ -202,3 +202,10 @@ cpm24|ffa
 dust_dm1|ffa
 geit3dm6|ffa
 zl3tourney1|ffa
+13cube|ffa
+13island|ffa
+13stone|ffa
+arenaraiders|ffa
+ultra|ffa
+time2fly|ffa
+gmmoshpitra|ffa
