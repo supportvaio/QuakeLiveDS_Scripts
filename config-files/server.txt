@@ -15,8 +15,8 @@ set com_hunkMegs "60"      // May need to be increased for additional players.
 set sv_master 1
 set sv_serverType 2
 
-set g_floodprot_maxcount "50"  // Kick the player when their flood counter reaches this level.
-set g_floodprot_decay "1000"   // Decrease the flood counter by 1 this often, in milliseconds.
+set g_floodprot_maxcount "150"  // Kick the player when their flood counter reaches this level.
+set g_floodprot_decay "500"   // Decrease the flood counter by 1 this often, in milliseconds.
 
 set g_voteDelay "0" // Delay allowing votes for x milliseconds after map load.
 set g_voteLimit "0" // Limit users to x votes per map.
