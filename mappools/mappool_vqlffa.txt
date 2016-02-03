@@ -187,11 +187,7 @@ rjldm3|ffa
 qxdm4_v2|ffa
 qxdm3|ffa
 sin|ffa
-wdw3dm3|ffa
-wdw3dm4|ffa
 charon3dm1|ffa
-charon3dm13|ffa
-el3dm1|ffa
 cpm18r|ffa
 ek3dm1|ffa
 jex3dm1|ffa
