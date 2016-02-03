@@ -137,11 +137,9 @@ df_b0_beta6|mg_race_pql
 df_bliss|mg_race_pql
 df_opc1|mg_race_pql
 df_opc2|mg_race_pql
-r2v2|qlrace_turbo
 lava_hell|qlrace_turbo
 jrace3|qlrace_turbo
 mega_ramp|qlrace_turbo
 plasma_climb|qlrace_turbo
 earth_run_v2|qlrace_turbo
 j6torments|qlrace_turbo
-dm6b2r|qlrace_turbo

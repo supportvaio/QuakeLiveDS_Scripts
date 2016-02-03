@@ -45,5 +45,6 @@ d_tourney1a|duel
 geit3dm6|duel
 gridworks|duel
 zl3tourney1|duel
-js_tourney1|duel
-dc_ss401|duel
+dc_map03|duel
+dc_map06|duel
+dc_map14|duel
