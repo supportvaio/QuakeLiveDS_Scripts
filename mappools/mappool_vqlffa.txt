@@ -177,7 +177,6 @@ bal3dm4|ffa
 haunted|ffa
 opium|ffa
 psidm7|ffa
-lun3dm1|ffa
 lun3dm2|ffa
 lun3dm3|ffa
 lun3dm4|ffa
@@ -202,7 +201,6 @@ cpm24|ffa
 dust_dm1|ffa
 geit3dm6|ffa
 zl3tourney1|ffa
-arenaraiders|ffa
 ultra|ffa
 time2fly|ffa
 gmmoshpitra|ffa
