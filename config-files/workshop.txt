@@ -328,7 +328,7 @@
 # Map - gridworks (Duel)
 599720061
 
-# Rocket mappack - 13cube, 13island, 13stone, arenaraiders, ultra, time2fly, gmmoshpitra
+# Rocket mappack - arenaraiders, ultra, time2fly, gmmoshpitra
 599095486
 
 # Map - ts_ca1 (CA, FFA)
@@ -343,3 +343,86 @@
 # Midair mappack - dade3midair1 endifacid midair1 nmx2 ns_midair qmtdm2 reqbouncerl ts_midair1 
 596113472
 
+# Defrag map - r2v2
+599966641
+
+# Defrag map - lava_hell
+601020709
+
+# Map - JumbyPaddy (CA)
+604249474
+
+# Defrag map - jRace3
+604427316
+
+# Defrag map - mega_ramp
+605120401
+
+# Map - Ra3map11pp (OverkillPP) (CA, FFA)!
+605561819
+
+# Defrag map - plasma_climb
+605613413
+
+# Defrag map - earth_run_v2
+606150607
+
+# Map - heroscerated (FFA)!
+606599547
+
+# Map - bal3dm2 (FFA)
+607023015
+
+# Map - cowdm1 (FFA)
+607026809
+
+# Mappack - Dreamcase (dc_map[01-24], dc_ss4[01-09])
+607031259
+
+# Map - hope (FFA)!
+607034812
+
+# Map - js_tourney1 (Duel, FFA)
+607039540
+
+# Map - klhights (FFA)
+607042346
+
+# Map - lsjg_coop (CA)
+607043831
+
+# Map - nodm18 (Grim DUngeons CPM) (FFA)
+607052130
+
+# Map - pqarena (FFA)
+607054267
+
+# Map - prodcmap7 (CA, FFA)!
+607055481
+
+# Map - q3mexx1 (FFA)
+607057423
+
+# Map - Batcula
+607091191
+
+# Map - rdogdm4 (FFA)
+607063967
+
+# Map - thunda3dm2 (FFA)
+607067048
+
+# Map - uberkill (CA, FFA)
+607068129
+
+# Map - Ra3map2pp (ShakenNotStirredPP) (CA, FFA)
+607909342
+
+# Defrag map - j6torments
+609334248
+
+# Defrag map - dm6b2r
+609946851
+
+# Map - 4sgca1 (CA)
+599576527

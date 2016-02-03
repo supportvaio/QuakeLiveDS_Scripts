@@ -119,3 +119,11 @@ df_b0_beta6|mg_race_vql
 df_bliss|mg_race_vql
 df_opc1|mg_race_vql
 df_opc2|mg_race_vql
+r2v2|qlrace_classic
+lava_hell|qlrace_classic
+jrace3|qlrace_classic
+mega_ramp|qlrace_classic
+plasma_climb|qlrace_classic
+earth_run_v2|qlrace_classic
+j6torments|qlrace_classic
+dm6b2r|qlrace_classic
