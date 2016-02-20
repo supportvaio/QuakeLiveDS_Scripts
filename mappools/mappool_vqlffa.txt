@@ -215,3 +215,12 @@ batcula|ffa
 thunda3dm2|ffa
 uberkill|ffa
 js_tourney1|ffa
+q3megamix|ffa
+phantq3dm6_st|ffa
+q3dm2remix|ffa
+karist|ffa
+swift|ffa
+gleed|ffa
+gon|ffa
+gon2|ffa
+probgmp6|ffa

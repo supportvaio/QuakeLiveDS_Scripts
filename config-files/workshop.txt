@@ -426,3 +426,54 @@
 
 # Map - 4sgca1 (CA)
 599576527
+
+# Defrag map - maze
+611099320
+
+# Map - q3megamix (FFA, CA-tbd?)
+614233851
+
+# Defrag map - jSMB
+614245167
+
+# Defrag map - sodomia
+614600179
+
+# Defrag map - grenadorade
+615375236
+
+# Map - phantq3dm6_st (FFA)
+617896584
+
+# Map - q3dm2remix (FFA)
+621993039
+
+# Map - 4sgca2 (CA)
+622119130
+
+# Defrag map - egyptianrun
+622322592
+
+# Map - karist (FFA, CA)
+623436886
+
+# Map - swift (FFA, CA 2x2, Duel)
+624131766
+
+# Map - gleed (FFA, CA 4x4, Duel)
+624142270
+
+# Map - gon (FFA)
+624345614
+
+# Map - gon2 (FFA)
+624352175
+
+# Map - probgmp6 (FFA)
+624433551
+
+# Defrag map - tele_world
+606945800
+
+# Defrag map - supercruton
+612969483

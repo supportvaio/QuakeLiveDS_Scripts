@@ -96,3 +96,5 @@ prodcmap7|ca
 uberkill|ca
 shakennotstirredpp|ca
 4sgca1|ca
+4sgca2|ca
+karist|ca
