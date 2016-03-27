@@ -1,6 +1,8 @@
 #! /bin/bash
 # minqlx.sh - quake live minqlx auto-installation script
 
+echo "Adding external python3.5 PPA repo"
+sudo add-apt-repository ppa:fkrull/deadsnakes
 echo "Updating 'apt-get'..."
 sudo apt-get -y update
 echo "Installing system updates..."
