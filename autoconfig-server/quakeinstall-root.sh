@@ -20,6 +20,8 @@ echo "Installing ZeroMQ library..."
 clear
 echo "Adding user 'qlserver'..."
 useradd -m qlserver; usermod -a -G sudo qlserver; chsh -s /bin/bash qlserver; clear; echo "Enter the password to use for QLserver account:"; passwd qlserver
+groupadd supervisor
+usermod -a -G supervisor qlserver
 clear
 # you might not want to do this: (it's a security risk, but makes things more convienient)
 echo "Adding user 'qlserver' to sudoers file, and appending NOPASSWD..."
