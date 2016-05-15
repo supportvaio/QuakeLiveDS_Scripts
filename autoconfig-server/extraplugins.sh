@@ -5,7 +5,7 @@ cd /home/qlserver
 echo "Downloading tjone270-minqlx-plugins..."
 mkdir /home/qlserver/tjone270-minqlx-plugins
 cd /home/qlserver/tjone270-minqlx-plugins
-git clone https://github.com/tjone270/Quake-Live/minqlx-plugins
+git clone https://github.com/tjone270/Quake-Live
 cd /home/qlserver/steamcmd/steamapps/common/qlds/minqlx-plugins/
 ln -s /home/qlserver/tjone270-minqlx-plugins/Quake-Live/minqlx-plugins/* .
 
