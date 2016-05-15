@@ -3,3 +3,8 @@
 
 # admin 1, darksab0r
 76561198032849113|admin
+
+# Blacklist for cheaters, douchebags who play shitty music all the time or constantly callvote random shit
+
+76561198091554251|ban
+76561198205450556|ban
