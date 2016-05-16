@@ -43,6 +43,9 @@ cd ~
 # Running 'autodownload.sh' to recache all workshop items before restarting.
 bash ~/autodownload.sh
 
+# Update external minqlx-plugins
+sh ~/QuakeLiveDS_Scripts/autoconfig-server/extraplugins.sh
+
 # Using 'supervisorctl' to start all servers.
 echo Starting Quake Servers...
 /usr/local/bin/supervisorctl start all
