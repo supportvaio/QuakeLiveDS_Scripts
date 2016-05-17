@@ -30,7 +30,7 @@ echo "Starting clan arena server 1..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking CA Classic | qlstats.net" \
+    +set sv_hostname "    #$servernum let's start cooking CA PRO | elo > 1400" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -41,6 +41,14 @@ exec $qPathToMinqlxStartScript \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!elo^7, ^1!elos^7, ^1!teams^7,"\
     +set qlx_serverBrandBottomField "^1!balance^7, ^1!sounds^7, ^3/cv nextmap^7, ^3/cv ruleset ^2vql^1/^1pql^7" \
     +set qlx_defaultMapToChangeTo "campgrounds" \
+    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, branding, votestats, translate, player_info, checkplayers, vote, votemanager, custom_votes, locations, changemap, aliases, funlimit, mybalance, myban, myessentials, afk, q3resolver" \
+    +set qlx_elo_limit_min "1400" \
+    +set qlx_elo_limit_max "5000" \
+    +set qlx_elo_games_needed "1" \
+    +set qlx_mybalance_autoshuffle "1" \
+    +set qlx_mybalance_exclude "1" \
+    +set qlx_afk_warning_seconds "30" \
+    +set qlx_afk_detection_seconds "60" \
     +set g_voteFlags "200" \
     +set g_allowSpecVote 1 \
     +set g_allowVoteMidGame 1 \
@@ -161,7 +169,7 @@ echo "Starting Clan arena server 2..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking CA Classic | qlstats.net" \
+    +set sv_hostname "    #$servernum let's start cooking CA Новички | elo < 1600" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
@@ -172,6 +180,14 @@ exec $qPathToMinqlxStartScript \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!elo^7, ^1!elos^7, ^1!teams^7,"\
     +set qlx_serverBrandBottomField "^1!balance^7, ^1!sounds^7, ^3/cv nextmap^7, ^3/cv ruleset ^2vql^1/^1pql^7" \
     +set qlx_defaultMapToChangeTo "hiddenfortress" \
+    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, branding, votestats, translate, player_info, checkplayers, vote, votemanager, custom_votes, locations, changemap, aliases, funlimit, mybalance, myban, myessentials, afk" \
+    +set qlx_elo_limit_min "0" \
+    +set qlx_elo_limit_max "1600" \
+    +set qlx_elo_games_needed "0" \
+    +set qlx_mybalance_autoshuffle "1" \
+    +set qlx_mybalance_exclude "1" \
+    +set qlx_afk_warning_seconds "30" \
+    +set qlx_afk_detection_seconds "60" \
     +set g_voteFlags "200" \
     +set g_allowSpecVote 1 \
     +set g_allowVoteMidGame 1 \
@@ -247,7 +263,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
     +set sv_tags "Elo,VQL,Midair,rocketinstagib,$sponsortag" \
-    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, branding, votestats, translate, player_info, midair_only, checkplayers, vote, votemanager, custom_votes, locations, aliases" \
+    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, branding, votestats, translate, player_info, midair_only, checkplayers, vote, votemanager, custom_votes, locations, aliases, funlimit, myban, myessentials, q3resolver" \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!top^7, ^1!mytop^7, ^1!kills^7," \
     +set qlx_serverBrandBottomField "^3/cv nextmap^7, ^3/cv allready^7" \
     +set g_voteFlags "200" \
