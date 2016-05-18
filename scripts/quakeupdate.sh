@@ -44,7 +44,7 @@ cd ~
 bash ~/autodownload.sh
 
 # Update external minqlx-plugins
-sh ~/QuakeLiveDS_Scripts/autoconfig-server/extraplugins.sh
+sh ~/QuakeLiveDS_Scripts/autoconfig-server/extraplugins-update.sh
 
 # Using 'supervisorctl' to start all servers.
 echo Starting Quake Servers...
