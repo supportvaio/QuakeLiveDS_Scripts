@@ -34,7 +34,7 @@ echo "Updating x0rnn-minqlx-plugins-1 (Race)..."
 cd /home/qlserver/x0rnn-minqlx-plugins-1
 git pull
 cd /home/qlserver/steamcmd/steamapps/common/qlds/minqlx-plugins/
-ln -s /home/qlserver/x0rnn-minqlx-plugins-1/minqlx-plugins-1/* 
+ln -s /home/qlserver/x0rnn-minqlx-plugins-1/minqlx-plugins-1/* .
 
 echo "Done."
 exit

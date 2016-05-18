@@ -39,7 +39,7 @@ mkdir /home/qlserver/x0rnn-minqlx-plugins-1
 cd /home/qlserver/x0rnn-minqlx-plugins-1
 git clone https://github.com/x0rnn/minqlx-plugins-1
 cd /home/qlserver/steamcmd/steamapps/common/qlds/minqlx-plugins/
-ln -s /home/qlserver/x0rnn-minqlx-plugins-1/minqlx-plugins-1/* 
+ln -s /home/qlserver/x0rnn-minqlx-plugins-1/minqlx-plugins-1/* .
 
 echo "Done."
 exit
