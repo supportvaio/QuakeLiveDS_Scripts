@@ -41,7 +41,7 @@ exec $qPathToMinqlxStartScript \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!elo^7, ^1!elos^7, ^1!teams^7,"\
     +set qlx_serverBrandBottomField "^1!balance^7, ^1!sounds^7, ^3/cv nextmap^7, ^3/cv ruleset ^2vql^1/^1pql^7" \
     +set qlx_defaultMapToChangeTo "campgrounds" \
-    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, branding, votestats, translate, player_info, checkplayers, vote, votemanager, custom_votes, locations, changemap, aliases, funlimit, mybalance, myban, myessentials, afk, q3resolver" \
+    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, branding, votestats, translate, player_info, checkplayers, vote, votemanager, custom_votes, ips, changemap, aliases, funlimit, mybalance, myban, myessentials, afk, q3resolver" \
     +set qlx_elo_limit_min "1400" \
     +set qlx_elo_limit_max "5000" \
     +set qlx_elo_games_needed "1" \
@@ -72,7 +72,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
     +set sv_tags "VQL,defrag,QLRace,classic,$sponsortag" \
-    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, log, silence, docs, fun, balance, branding, checkplayers, votestats, race, translate, votemanager, custom_votes, locations, aliases" \
+    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, log, silence, docs, fun, balance, branding, checkplayers, votestats, race, translate, votemanager, custom_votes, ips, aliases" \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!top^7, ^1!stop^7", \
     +set qlx_serverBrandBottomField "^1!help^7, ^1!sounds^7, ^3/cv nextmap^7" \
     +set qlx_raceMode "2" \
@@ -98,7 +98,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
     +set sv_tags "PQL,defrag,QLRace,turbo,$sponsortag" \
-    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, log, silence, docs, fun, balance, branding, checkplayers, votestats, race, translate, votemanager, custom_votes, locations, aliases" \
+    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, log, silence, docs, fun, balance, branding, checkplayers, votestats, race, translate, votemanager, custom_votes, ips, aliases" \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!top^7, ^1!stop^7", \
     +set qlx_serverBrandBottomField "^1!help^7, ^1!sounds^7, ^3/cv nextmap^7" \
     +set qlx_raceMode "0" \
@@ -180,7 +180,7 @@ exec $qPathToMinqlxStartScript \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!elo^7, ^1!elos^7, ^1!teams^7,"\
     +set qlx_serverBrandBottomField "^1!balance^7, ^1!sounds^7, ^3/cv nextmap^7, ^3/cv ruleset ^2vql^1/^1pql^7" \
     +set qlx_defaultMapToChangeTo "hiddenfortress" \
-    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, branding, votestats, translate, player_info, checkplayers, vote, votemanager, custom_votes, locations, changemap, aliases, funlimit, mybalance, myban, myessentials, afk" \
+    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, branding, votestats, translate, player_info, checkplayers, vote, votemanager, custom_votes, ips, changemap, aliases, funlimit, mybalance, myban, myessentials, afk" \
     +set qlx_elo_limit_min "0" \
     +set qlx_elo_limit_max "1600" \
     +set qlx_elo_games_needed "0" \
@@ -263,7 +263,7 @@ exec $qPathToMinqlxStartScript \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
     +set sv_tags "Elo,VQL,Midair,rocketinstagib,$sponsortag" \
-    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, branding, votestats, translate, player_info, midair_only, checkplayers, vote, votemanager, custom_votes, locations, aliases, funlimit, myban, myessentials, q3resolver" \
+    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, branding, votestats, translate, player_info, midair_only, checkplayers, vote, votemanager, custom_votes, ips, aliases, funlimit, myban, myessentials, q3resolver" \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!top^7, ^1!mytop^7, ^1!kills^7," \
     +set qlx_serverBrandBottomField "^3/cv nextmap^7, ^3/cv allready^7" \
     +set g_voteFlags "200" \
