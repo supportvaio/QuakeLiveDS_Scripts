@@ -46,7 +46,6 @@ exec $qPathToMinqlxStartScript \
     +set qlx_elo_limit_max "5000" \
     +set qlx_elo_games_needed "1" \
     +set qlx_mybalance_autoshuffle "1" \
-    +set qlx_mybalance_exclude "1" \
     +set qlx_afk_warning_seconds "30" \
     +set qlx_afk_detection_seconds "60" \
     +set g_voteFlags "200" \
@@ -185,7 +184,6 @@ exec $qPathToMinqlxStartScript \
     +set qlx_elo_limit_max "1600" \
     +set qlx_elo_games_needed "0" \
     +set qlx_mybalance_autoshuffle "1" \
-    +set qlx_mybalance_exclude "1" \
     +set qlx_afk_warning_seconds "30" \
     +set qlx_afk_detection_seconds "60" \
     +set g_voteFlags "200" \
