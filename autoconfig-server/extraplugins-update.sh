@@ -7,6 +7,8 @@ cd /home/qlserver/tjone270-minqlx-plugins/Quake-Live
 git pull
 cd /home/qlserver/steamcmd/steamapps/common/qlds/minqlx-plugins/
 ln -s /home/qlserver/tjone270-minqlx-plugins/Quake-Live/minqlx-plugins/* .
+cd /home/qlserver/steamcmd/steamapps/common/qlds/minqlx-plugins/gamemodes/
+ln -s /home/qlserver/tjone270-minqlx-plugins/Quake-Live/minqlx-plugins/gamemodes/* .
 
 cd /home/qlserver
 echo "Updating cstewart90-minqlx-plugins..."
