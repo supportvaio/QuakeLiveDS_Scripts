@@ -53,6 +53,7 @@ exec $qPathToMinqlxStartScript \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
+    +set sv_includeCurrentMapInVote "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlca.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -127,6 +128,7 @@ exec $qPathToMinqlxStartScript \
     +set qlx_serverBrandBottomField "^1!sounds^7, ^3/cv nextmap^7, ^3/cv allready^7" \
     +set qlx_defaultMapToChangeTo "bloodrun" \
     +set g_voteFlags "200" \
+    +set g_itemTimers "0" \
     +set g_allowSpecVote 1 \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
@@ -191,6 +193,7 @@ exec $qPathToMinqlxStartScript \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
+    +set sv_includeCurrentMapInVote "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlca.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -216,7 +219,8 @@ exec $qPathToMinqlxStartScript \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_timeoutCount 3 \
-    +set g_timeoutLen 30 \
+    +set g_timeoutLen 90 \
+    +set sv_includeCurrentMapInVote "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduelextra.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -292,7 +296,8 @@ exec $qPathToMinqlxStartScript \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_timeoutCount 3 \
-    +set g_timeoutLen 30 \
+    +set g_timeoutLen 90 \
+    +set sv_includeCurrentMapInVote "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduelextra.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -318,7 +323,8 @@ exec $qPathToMinqlxStartScript \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_timeoutCount 3 \
-    +set g_timeoutLen 30 \
+    +set g_timeoutLen 90 \
+    +set sv_includeCurrentMapInVote "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlduelextra.txt" \
     +set fs_homepath ~/.quakelive/$gameport
