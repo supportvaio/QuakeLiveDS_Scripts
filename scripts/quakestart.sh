@@ -215,7 +215,7 @@ exec $qPathToMinqlxStartScript \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!elo^7, ^1!elos^7", \
     +set qlx_serverBrandBottomField "^1!sounds^7, ^3/cv nextmap^7" \
     +set qlx_defaultMapToChangeTo "lostworld" \
-    +set g_voteFlags "2248" \
+    +set g_voteFlags "200" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_timeoutCount 3 \
@@ -242,7 +242,7 @@ exec $qPathToMinqlxStartScript \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!elo^7, ^1!elos^7", \
     +set qlx_serverBrandBottomField "^1!sounds^7, ^3/cv nextmap^7, ^3/cv allready^7" \
     +set qlx_defaultMapToChangeTo "quarantine" \
-    +set g_voteFlags "2248" \
+    +set g_voteFlags "200" \
     +set g_allowSpecVote 1 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
@@ -292,7 +292,7 @@ exec $qPathToMinqlxStartScript \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!elo^7, ^1!elos^7", \
     +set qlx_serverBrandBottomField "^1!sounds^7, ^3/cv nextmap^7" \
     +set qlx_defaultMapToChangeTo "cure" \
-    +set g_voteFlags "2248" \
+    +set g_voteFlags "200" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_timeoutCount 3 \
@@ -319,7 +319,7 @@ exec $qPathToMinqlxStartScript \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!elo^7, ^1!elos^7", \
     +set qlx_serverBrandBottomField "^1!sounds^7, ^3/cv nextmap^7" \
     +set qlx_defaultMapToChangeTo "sinister" \
-    +set g_voteFlags "2248" \
+    +set g_voteFlags "200" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_timeoutCount 3 \
