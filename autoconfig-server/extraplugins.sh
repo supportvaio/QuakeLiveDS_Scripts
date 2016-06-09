@@ -8,7 +8,7 @@ cd /home/qlserver/tjone270-minqlx-plugins
 git clone https://github.com/tjone270/Quake-Live
 cd /home/qlserver/steamcmd/steamapps/common/qlds/minqlx-plugins/
 ln -s /home/qlserver/tjone270-minqlx-plugins/Quake-Live/minqlx-plugins/* .
-cd /home/qlserver/steamcmd/steamapps/common/qlds/minqlx-plugins/gamemodes/
+cd /home/qlserver/steamcmd/steamapps/common/qlds/minqlx-plugins/
 ln -s /home/qlserver/tjone270-minqlx-plugins/Quake-Live/minqlx-plugins/gamemodes/* .
 
 cd /home/qlserver
