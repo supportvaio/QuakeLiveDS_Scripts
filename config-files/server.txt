@@ -10,7 +10,7 @@ set g_password ""          // Set a server-wide password, and stop all users fro
 set sv_privateClients "2"  // Reserve slots that can be used with sv_privatePassword.
 set sv_privatePassword "givemeaspot"  // Password to use in conjunction with sv_privateClients.
 
-set com_hunkMegs "60"      // May need to be increased for additional players.
+set com_hunkMegs "120"      // May need to be increased for additional players.
 
 set sv_master 1
 set sv_serverType 2
