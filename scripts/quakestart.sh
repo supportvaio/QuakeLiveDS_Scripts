@@ -271,7 +271,6 @@ exec $qPathToMinqlxStartScript \
     +set g_voteFlags "29800" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
-    +set bot_autoManage 1 \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_midair.txt" \
     +set fs_homepath ~/.quakelive/$gameport
