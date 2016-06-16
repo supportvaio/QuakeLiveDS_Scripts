@@ -48,7 +48,7 @@ exec $qPathToMinqlxStartScript \
     +set qlx_mybalance_autoshuffle "1" \
     +set qlx_afk_warning_seconds "30" \
     +set qlx_afk_detection_seconds "60" \
-    +set g_voteFlags "200" \
+    +set g_voteFlags "29800" \
     +set g_allowSpecVote 1 \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
@@ -77,7 +77,7 @@ exec $qPathToMinqlxStartScript \
     +set qlx_serverBrandBottomField "^1!help^7, ^1!sounds^7, ^3/cv nextmap^7" \
     +set qlx_raceMode "2" \
     +set qlx_raceBrand "let's start cooking" \
-    +set g_voteFlags "200" \
+    +set g_voteFlags "29800" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
@@ -103,7 +103,7 @@ exec $qPathToMinqlxStartScript \
     +set qlx_serverBrandBottomField "^1!help^7, ^1!sounds^7, ^3/cv nextmap^7" \
     +set qlx_raceMode "0" \
     +set qlx_raceBrand "let's start cooking" \
-    +set g_voteFlags "200" \
+    +set g_voteFlags "29800" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
@@ -127,7 +127,7 @@ exec $qPathToMinqlxStartScript \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!elo^7, ^1!elos^7", \
     +set qlx_serverBrandBottomField "^1!sounds^7, ^3/cv nextmap^7, ^3/cv allready^7" \
     +set qlx_defaultMapToChangeTo "bloodrun" \
-    +set g_voteFlags "200" \
+    +set g_voteFlags "29800" \
     +set g_itemTimers "0" \
     +set g_allowSpecVote 1 \
     +set g_allowVoteMidGame 1 \
@@ -154,7 +154,7 @@ exec $qPathToMinqlxStartScript \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!elo^7, ^1!elos^7", \
     +set qlx_serverBrandBottomField "^1!sounds^7, ^3/cv nextmap^7, ^3/cv allready^7" \
     +set qlx_defaultMapToChangeTo "hiddenfortress" \
-    +set g_voteFlags "200" \
+    +set g_voteFlags "29800" \
     +set g_allowSpecVote 1 \
     +set g_allowVoteMidGame 1 \
     +set g_loadout 1 \
@@ -188,7 +188,7 @@ exec $qPathToMinqlxStartScript \
     +set qlx_mybalance_autoshuffle "1" \
     +set qlx_afk_warning_seconds "30" \
     +set qlx_afk_detection_seconds "60" \
-    +set g_voteFlags "200" \
+    +set g_voteFlags "29800" \
     +set g_allowSpecVote 1 \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
@@ -215,7 +215,7 @@ exec $qPathToMinqlxStartScript \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!elo^7, ^1!elos^7", \
     +set qlx_serverBrandBottomField "^1!sounds^7, ^3/cv nextmap^7" \
     +set qlx_defaultMapToChangeTo "lostworld" \
-    +set g_voteFlags "200" \
+    +set g_voteFlags "29800" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_timeoutCount 3 \
@@ -242,7 +242,7 @@ exec $qPathToMinqlxStartScript \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!elo^7, ^1!elos^7", \
     +set qlx_serverBrandBottomField "^1!sounds^7, ^3/cv nextmap^7, ^3/cv allready^7" \
     +set qlx_defaultMapToChangeTo "quarantine" \
-    +set g_voteFlags "200" \
+    +set g_voteFlags "29800" \
     +set g_allowSpecVote 1 \
     +set g_allowVoteMidGame 1 \
     +set g_accessFile "access_purgery.txt" \
@@ -268,7 +268,7 @@ exec $qPathToMinqlxStartScript \
     +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, branding, votestats, translate, player_info, midair_only, checkplayers, vote, votemanager, custom_votes, ips, aliases, funlimit, myban, myessentials, q3resolver, botmanager, killingspree" \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!top^7, ^1!mytop^7, ^1!kills^7," \
     +set qlx_serverBrandBottomField "^3/cv nextmap^7, ^3/cv allready^7, ^1!addbot^7, ^1!rembot^7" \
-    +set g_voteFlags "200" \
+    +set g_voteFlags "29800" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set bot_autoManage 1 \
@@ -293,7 +293,7 @@ exec $qPathToMinqlxStartScript \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!elo^7, ^1!elos^7", \
     +set qlx_serverBrandBottomField "^1!sounds^7, ^3/cv nextmap^7" \
     +set qlx_defaultMapToChangeTo "cure" \
-    +set g_voteFlags "200" \
+    +set g_voteFlags "29800" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_timeoutCount 3 \
@@ -320,7 +320,7 @@ exec $qPathToMinqlxStartScript \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!elo^7, ^1!elos^7", \
     +set qlx_serverBrandBottomField "^1!sounds^7, ^3/cv nextmap^7" \
     +set qlx_defaultMapToChangeTo "sinister" \
-    +set g_voteFlags "200" \
+    +set g_voteFlags "29800" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
     +set g_timeoutCount 3 \
