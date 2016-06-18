@@ -133,6 +133,7 @@ exec $qPathToMinqlxStartScript \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
+    +set qlx_workshopReferences "701783942" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlffa.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -160,6 +161,7 @@ exec $qPathToMinqlxStartScript \
     +set g_loadout 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
+    +set qlx_workshopReferences "701783942" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlffa.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -245,6 +247,7 @@ exec $qPathToMinqlxStartScript \
     +set g_voteFlags "29800" \
     +set g_allowSpecVote 1 \
     +set g_allowVoteMidGame 1 \
+    +set qlx_workshopReferences "701783942" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_instabounce.txt" \
     +set fs_homepath ~/.quakelive/$gameport
@@ -271,6 +274,7 @@ exec $qPathToMinqlxStartScript \
     +set g_voteFlags "29800" \
     +set g_allowSpecVote 0 \
     +set g_allowVoteMidGame 1 \
+    +set qlx_workshopReferences "701783942" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_midair.txt" \
     +set fs_homepath ~/.quakelive/$gameport
