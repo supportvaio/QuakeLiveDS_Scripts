@@ -8,6 +8,8 @@ if [ "$(whoami)" -ne "qlserver" ]
   exit
 fi
 clear
+cd ~/
+git clone https://github.com/dark-saber/QuakeLiveDS_Scripts
 echo "Installing SteamCMD..."
 mkdir ~/steamcmd; cd ~/steamcmd; wget https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz; tar -xvzf steamcmd_linux.tar.gz; rm steamcmd_linux.tar.gz
 clear
@@ -17,5 +19,6 @@ clear
 echo "Cronning 'QuakeUpdate.sh'..."
 echo "0 8 * * * /home/qlserver/quakeupdate.sh" > cron; crontab cron; rm cron
 clear
-echo "Done."
+chmod +x /home/qlserver/QuakeLiveDS_Scripts/scripts/*.sh
+ln -s /home/qlserver/QuakeLiveDS_Scripts/scripts/*.sh /home/qlserver
 exit
