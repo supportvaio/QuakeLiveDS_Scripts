@@ -18,7 +18,8 @@ To install Quake Live Dedicated Server using these scripts, you'll need an Ubunt
 8. _cd ~_
 9. _./quakeconfig.sh_
 10. _./quakeupdate.sh_
-11. PROFIT
+11. Enable and start supervisor: _sudo systemctl enable supervisor_; _sudo systemctl start supervisor_
+12. PROFIT
 
 You will need to change _dark-saber_ to your GitHub username in _quakeconfig.sh_ and _quakeupdate.sh_. Also, you'll need to enter your qlstats server password to _~/localConfig-rconPassword-purgery.txt_. Global server settings are in _QuakeLiveDS_Scripts/config/server.cfg_, settings of specific servers are in _~/quakestart.sh_. Enjoy!
 
