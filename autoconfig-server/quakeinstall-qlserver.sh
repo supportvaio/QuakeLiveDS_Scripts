@@ -21,4 +21,5 @@ echo "0 8 * * * /home/qlserver/quakeupdate.sh" > cron; crontab cron; rm cron
 clear
 chmod +x /home/qlserver/QuakeLiveDS_Scripts/scripts/*.sh
 ln -s /home/qlserver/QuakeLiveDS_Scripts/scripts/*.sh /home/qlserver
+echo "Now execute minqlx.sh and extraplugins.sh, then cd ~; ./quakeconfig.sh; ./quakeupdate.sh"
 exit
