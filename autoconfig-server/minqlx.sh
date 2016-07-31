@@ -11,8 +11,8 @@ echo "Installing python and Redis server..."
 sudo apt-get -y install python3.5 python3.5-dev redis-server
 echo "Downloading minqlx..."
 cd /home/qlserver/steamcmd/steamapps/common/qlds
-wget https://github.com/MinoMino/minqlx/releases/download/v0.4.5/minqlx_v0.4.5.tar.gz
-tar xvzf ./minqlx_v0.4.5.tar.gz
+wget https://github.com/MinoMino/minqlx/releases/download/v0.4.6/minqlx_v0.4.6.tar.gz
+tar xvzf ./minqlx_v0.4.6.tar.gz
 echo "Downloading minqlx-plugins..."
 git clone https://github.com/MinoMino/minqlx-plugins.git
 echo "Installing pip..."
