@@ -26,25 +26,25 @@ cd ~/steamcmd/steamapps/common/qlds/baseq3
 if [ $1 -eq 0 ]
 # starting PQL CA 1
 then
-echo "Starting clan arena server 1..."
+echo "Starting FT server 1..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking CA 1" \
+    +set sv_hostname "    #$servernum let's start cooking Freeze Tag" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "Elo,VQL,CA,$sponsortag" \
+    +set sv_tags "Elo,VQL,freezetag,$sponsortag" \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!elo^7, ^1!elos^7, ^1!teams^7,"\
-    +set qlx_serverBrandBottomField "^1!sounds^7, ^3/cv nextmap^7, ^3/cv ruleset ^2vql^7/^1pql^7, ^3/cv gamemode triweapon ^2on^7/^1off^7" \
-    +set qlx_defaultMapToChangeTo "campgrounds" \
-    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, branding, votestats, translate, player_info, checkplayers, vote, votemanager, custom_votes, ips, changemap, aliases, funlimit, mybalance, myban, myessentials, afk, q3resolver, gamemode_triweapon, gamemode_secondchance, killingspree" \
+    +set qlx_serverBrandBottomField "^1!sounds^7, ^3/cv nextmap^7" \
+    +set qlx_defaultMapToChangeTo "bloodrun" \
+    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, branding, votestats, translate, player_info, checkplayers, vote, votemanager, custom_votes, ips, changemap, aliases, funlimit, mybalance, myban, myessentials, afk, q3resolver, killingspree" \
     +set qlx_elo_limit_min "0" \
     +set qlx_elo_limit_max "5000" \
-    +set qlx_elo_games_needed "1" \
+    +set qlx_elo_games_needed "0" \
     +set qlx_mybalance_autoshuffle "1" \
     +set qlx_afk_warning_seconds "30" \
     +set qlx_afk_detection_seconds "60" \
@@ -55,7 +55,7 @@ exec $qPathToMinqlxStartScript \
     +set bot_nochat 1 \
     +set sv_includeCurrentMapInVote "1" \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "mappool_vqlca.txt" \
+    +set sv_mappoolFile "mappool_vqlft.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 1 ]
 # starting VQL CA 1
@@ -126,7 +126,7 @@ exec $qPathToMinqlxStartScript \
     +set sv_tags "Elo,VQL,classic,$sponsortag" \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!elo^7, ^1!elos^7", \
     +set qlx_serverBrandBottomField "^1!sounds^7, ^3/cv nextmap^7, ^3/cv allready^7" \
-    +set qlx_defaultMapToChangeTo "bloodrun" \
+    +set qlx_defaultMapToChangeTo "asylum" \
     +set g_voteFlags "29800" \
     +set g_itemTimers "0" \
     +set g_allowSpecVote 1 \
@@ -168,25 +168,25 @@ exec $qPathToMinqlxStartScript \
 elif [ $1 -eq 5 ]
 # starting PQL DOM 1...
 then
-echo "Starting Clan arena server 2..."
+echo "Starting iFT server 1..."
 exec $qPathToMinqlxStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "    #$servernum let's start cooking CA 2" \
+    +set sv_hostname "    #$servernum let's start cooking InstaFreeze" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "Elo,VQL,CA,$sponsortag" \
+    +set sv_tags "Elo,VQL,freezetag,iFT,instafreezetag,$sponsortag" \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!elo^7, ^1!elos^7, ^1!teams^7,"\
-    +set qlx_serverBrandBottomField "^1!sounds^7, ^3/cv nextmap^7, ^3/cv ruleset ^2vql^7/^1pql^7, ^3/cv gamemode secondchance ^2on^7/^1off^7" \
-    +set qlx_defaultMapToChangeTo "hiddenfortress" \
-    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, branding, votestats, translate, player_info, checkplayers, vote, votemanager, custom_votes, ips, changemap, aliases, funlimit, mybalance, myban, myessentials, afk, q3resolver, gamemode_triweapon, gamemode_secondchance, killingspree" \
+    +set qlx_serverBrandBottomField "^1!sounds^7, ^3/cv nextmap^7" \
+    +set qlx_defaultMapToChangeTo "retribution" \
+    +set qlx_plugins "plugin_manager, essentials, motd, permission, ban, clan, names, solorace, log, silence, docs, fun, balance, branding, votestats, translate, player_info, checkplayers, vote, votemanager, custom_votes, ips, changemap, aliases, funlimit, mybalance, myban, myessentials, afk, q3resolver, killingspree" \
     +set qlx_elo_limit_min "0" \
     +set qlx_elo_limit_max "5000" \
-    +set qlx_elo_games_needed "1" \
+    +set qlx_elo_games_needed "0" \
     +set qlx_mybalance_autoshuffle "1" \
     +set qlx_afk_warning_seconds "30" \
     +set qlx_afk_detection_seconds "60" \
@@ -197,7 +197,7 @@ exec $qPathToMinqlxStartScript \
     +set bot_nochat 1 \
     +set sv_includeCurrentMapInVote "1" \
     +set g_accessFile "access_purgery.txt" \
-    +set sv_mappoolFile "mappool_vqlca.txt" \
+    +set sv_mappoolFile "mappool_vqlift.txt" \
     +set fs_homepath ~/.quakelive/$gameport
 elif [ $1 -eq 6 ]
 # starting PQL INFECTED 1...
