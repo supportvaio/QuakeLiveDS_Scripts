@@ -53,6 +53,8 @@ exec $qPathToMinqlxStartScript \
     +set g_allowVoteMidGame 1 \
     +set bot_enable 1 \
     +set bot_nochat 1 \
+    +set g_itemTimers "0" \
+    +set g_loadout 0 \
     +set sv_includeCurrentMapInVote "1" \
     +set g_accessFile "access_purgery.txt" \
     +set sv_mappoolFile "mappool_vqlft.txt" \
