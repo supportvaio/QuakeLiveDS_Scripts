@@ -6,7 +6,7 @@ _This reporitory is a clone of [tjone270's](https://github.com/tjone270/QuakeLiv
 
 The scripts/mappools/factories/configs from here are currently live on _let's start cooking_ servers.
 
-To install Quake Live Dedicated Server using these scripts, you'll need an Ubuntu 14.04 or 16.04 (it works fine on virtual machine, you can use something like [Virtualbox](https://virtualbox.org)).
+To install Quake Live Dedicated Server using these scripts, you'll need a 64-bit Ubuntu 14.04 or 16.04 (it works fine on virtual machine, you can use something like [Virtualbox](https://virtualbox.org)).
 
 1. Fork this repository
 2. Change _dark-saber_ to your GitHub username in _quakeconfig.sh_ and _quakeupdate.sh_; change the _steamid_ to yours in _config-files/server.txt_ and _accesses/access_purgery.txt_ (you will need to update _accesses.zip_ too).
