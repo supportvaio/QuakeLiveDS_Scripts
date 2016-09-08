@@ -201,3 +201,7 @@ arcdm17|ffa
 hope|ffa
 ra3map11pp|ffa
 7plus|ffa
+13matrix|ffa
+13dawn|ffa
+eris|ffa
+13black|ffa

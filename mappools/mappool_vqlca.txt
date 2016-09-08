@@ -82,3 +82,5 @@ uberkill|ca
 prodcmap7|ca
 ra3map11pp|ca
 6plusplus|ca
+13matrix|ca
+eris|ca
