@@ -245,7 +245,7 @@ exec $qPathToMinqlxStartScript \
     +set qlx_serverBrandTopField "^7This is ^3darksab^20^3r^7's server. Commands: ^1!elo^7, ^1!elos^7", \
     +set qlx_serverBrandBottomField "^1!sounds^7, ^3/cv nextmap^7, ^3/cv allready^7" \
     +set qlx_defaultMapToChangeTo "quarantine" \
-    +set g_voteFlags "29800" \
+    +set g_voteFlags "29792" \
     +set g_allowSpecVote 1 \
     +set g_allowVoteMidGame 1 \
     +set qlx_workshopReferences "701783942" \
