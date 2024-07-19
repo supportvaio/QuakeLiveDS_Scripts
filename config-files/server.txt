@@ -5,7 +5,7 @@ set g_accessFile "access.txt"     // Used to determine which 64-bit Steam IDs ha
      
 set sv_maxClients "4"     // How many players can connect at once.
 
-set g_password ""          // Set a server-wide password, and stop all users from connecting without it.
+set g_password "1337"          // Set a server-wide password, and stop all users from connecting without it.
 
 set sv_privateClients "4"  // Reserve slots that can be used with sv_privatePassword.
 set sv_privatePassword "1337"  // Password to use in conjunction with sv_privateClients.
