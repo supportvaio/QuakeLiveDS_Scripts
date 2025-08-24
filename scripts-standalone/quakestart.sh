@@ -5,7 +5,7 @@
 
 
 # Defining variables.
-export location="EKB, RU"
+export location="DE"
 export qPathToStartScript="~/steamcmd/steamapps/common/qlds/run_server_x86.sh"
 sponsortag="$location"
 
@@ -31,18 +31,18 @@ cd ~/steamcmd/steamapps/common/qlds/baseq3
 if [ $1 -eq 0 ]
 # starting PQL CA 1
 then
-echo "Starting clan arena server 1..."
+echo "TEST CTF"
 exec $qPathToStartScript \
     +set net_strict 1 \
     +set net_port $gameport \
-    +set sv_hostname "#$servernum let's start cooking Clan Arena" \
+    +set sv_hostname "#$servernum CTF TEST" \
     +set zmq_rcon_enable 1 \
     +set zmq_rcon_password "$qRconPasswordPurgery" \
     +set zmq_rcon_port $rconport \
     +set zmq_stats_enable 1 \
     +set zmq_stats_password "$qRconPasswordPurgery" \
     +set zmq_stats_port $gameport \
-    +set sv_tags "VQL, CA, $sponsortag" \
+    +set sv_tags "CTF, $sponsortag" \
     +set g_voteFlags "13320" \
     +set g_allowSpecVote 1 \
     +set g_allowVoteMidGame 1 \
