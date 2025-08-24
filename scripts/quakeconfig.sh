@@ -8,7 +8,7 @@ echo "========= $(date) ========="
 
 # Variables used in multiple scripts:
 cd ~
-export qBaseURL="https://github.com/supportvaio/QuakeLiveDS_Scripts/blob/master"
+export qBaseURL="https://raw.githubusercontent.com/supportvaio/QuakeLiveDS_Scripts/master"
 #export qRconPassword=$(<localConfig-rconPassword.txt)
 #export qSteamUsername=$(<localConfig-steamUsername.txt)
 #export qSteamPassword=$(<localConfig-steamPassword.txt)
